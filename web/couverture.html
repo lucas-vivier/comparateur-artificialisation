@@ -104,6 +104,10 @@ td.mono{white-space:nowrap}
 footer{margin-top:6px;padding-top:10px;border-top:1px solid var(--line);font-size:.76rem;color:var(--ink-2);max-width:120ch;display:grid;gap:4px}
 footer b{letter-spacing:.04em}
 @media (max-width:700px){h1{font-size:1.45rem}}
+/* téléphone : fiche sélectionnée avant les filtres, points plus faciles à toucher, inventaire allégé */
+@media (max-width:900px){.detail{order:-1}}
+@media (max-width:700px){.pt{r:10px}
+  .listcard th:nth-child(1),.listcard td:nth-child(1),.listcard th:nth-child(4),.listcard td:nth-child(4),.listcard th:nth-child(6),.listcard td:nth-child(6){display:none}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
 
@@ -339,9 +343,12 @@ svg.addEventListener('mousemove', e => {
   else tip.hidden = true;
 });
 svg.addEventListener('mouseleave', () => tip.hidden = true);
+/* sur téléphone, la fiche est sous la carte : on la fait défiler à l'écran après un choix */
+const narrow = () => matchMedia('(max-width:900px)').matches;
+function showDetail(){ if (narrow() && (st.dep || st.base)) $('#detail').scrollIntoView({block:'start', behavior:'smooth'}); }
 function act(t){
-  if (t.classList.contains('dep')){ st.dep = st.dep === t.dataset.code ? null : t.dataset.code; st.base = null; render(); }
-  else if (t.classList.contains('pt')){ st.base = t.dataset.id; render(); }
+  if (t.classList.contains('dep')){ st.dep = st.dep === t.dataset.code ? null : t.dataset.code; st.base = null; render(); showDetail(); }
+  else if (t.classList.contains('pt')){ st.base = t.dataset.id; render(); showDetail(); }
 }
 svg.addEventListener('click', e => act(e.target));
 svg.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' '){ e.preventDefault(); act(e.target); }});
