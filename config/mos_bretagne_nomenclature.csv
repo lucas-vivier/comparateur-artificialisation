@@ -1,0 +1,51 @@
+code;libelle;regroupement;couleur;enaf
+1112;Habitat individuel;HABITAT;#EF3B2C;0
+1113;Habitat collectif;HABITAT;#FB6A4A;0
+1114;Urbain mixte (habitat/activité tertiaire);URBAIN MIXTE ET BATI DIVERS;#FC9272;0
+1115;Bâti divers;URBAIN MIXTE ET BATI DIVERS;#FAD0B8;0
+1122;Bâtiment remarquable;URBAIN MIXTE ET BATI DIVERS;#FF6D77;0
+1131;Bâtiment agricole;AGRICOLE;#DF5360;1
+1211;Activité tertiaire;ACTIVITES ET COMMERCES;#CC4DF2;0
+1212;Activité autre que tertiaire : industrie et artisanat;ACTIVITES ET COMMERCES;#60497A;0
+1213;Défense (anthropisé);DEFENSE;#E6004D;0
+1217;Surface commerciale;ACTIVITES ET COMMERCES;#EEEBF3;0
+1218;Activités autres que tertiaires : logistique et stockage;ACTIVITES ET COMMERCES;#7B5BA2;0
+1219;Activités multiples;ACTIVITES ET COMMERCES;#886BAB;0
+1220;Espaces naturels et agricoles aéroports;INFRASTRUCTURES;#82B482;0
+1221;Infrastructure de transport;INFRASTRUCTURES;#CC0000;0
+1222;Voie desserte habitat;HABITAT;#E60010;0
+1223;Voie desserte activité;ACTIVITES ET COMMERCES;#DF536E;0
+1224;Voie desserte mixte;URBAIN MIXTE ET BATI DIVERS;#E5717C;0
+1225;Chemin-sentier;INFRASTRUCTURES;#EB8F98;0
+1226;Autre infrastructure;INFRASTRUCTURES;#F5C7CB;0
+1227;Parking non construit;INFRASTRUCTURES;#F7AEB6;0
+1228;Parking construit;INFRASTRUCTURES;#F5BCC2;0
+1231;Equipement d'enseignement;EQUIPEMENTS;#977FB3;0
+1232;Equipement de santé;EQUIPEMENTS;#B2A1C7;0
+1233;Autre équipement local, administration;EQUIPEMENTS;#D8CEEC;0
+1234;Equipement pour eau, assainissement, énergie;EQUIPEMENTS;#E4DFEC;0
+1235;Equipement sportif (construit);EQUIPEMENTS;#DD3497;0
+1236;Hôtel;EQUIPEMENTS;#E15989;0
+1311;Carrière;CARRIERES;#A600CB;1
+1331;Terrain vacant - habitat;HABITAT;#FF4DFF;0
+1332;Terrain vacant - activité;ACTIVITES ET COMMERCES;#EC6EC8;0
+1333;Terrain vacant - autre;URBAIN MIXTE ET BATI DIVERS;#FFC9FF;0
+1334;Terrain vacant - agricole;AGRICOLE;#FFD2FF;1
+1335;Terrain vacants infrastructures (chantiers);INFRASTRUCTURES;#FFF0FF;0
+1411;Cimetière;EQUIPEMENTS;#FFA6FF;0
+1412;Parc et jardin;EQUIPEMENTS;#FDE0DD;0
+1413;Jardins habitat (unité foncière);HABITAT;#FDE0C8;0
+1414;Jardins activité (unité foncière);ACTIVITES ET COMMERCES;#FDC9FA;0
+1421;Sport et loisir;EQUIPEMENTS;#FFE6FF;0
+1423;Caravanage;NATUREL ET FORESTIER;#DD3464;1
+2121;Serre;AGRICOLE;#FFFF00;1
+2511;Terre agricole;AGRICOLE;#FBF5BF;1
+3251;Espace naturel;NATUREL ET FORESTIER;#8AA846;1
+3252;Espaces "naturels" militaires;DEFENSE;#649664;0
+3261;Espaces boisés;NATUREL ET FORESTIER;#D2D898;1
+3311;Plage, dune et sable;NATUREL ET FORESTIER;#E6E6E6;1
+3321;Rocher et falaise;NATUREL ET FORESTIER;#CCCCCC;1
+5121;Plan d'eau;SURFACES EN EAU;#80F2E6;1
+5131;Réseau hydrographique;SURFACES EN EAU;#2F87BD;1
+5231;Maritime nature;SURFACES EN EAU;#E6F2FF;1
+5232;Maritime plaisance;SURFACES EN EAU;#CDF2FF;1

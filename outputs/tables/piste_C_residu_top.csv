@@ -1,0 +1,41 @@
+region,sens,cs,us,r_classe,ha
+HdF,D1_ocs_artif_reg_enaf,CS1.1.2.1,US1.1,Agricole,1795.8
+HdF,D2_ocs_non_artif_reg_urbain,CS1.2.2,US6.3,Activité,1126.8
+IDF,D2_ocs_non_artif_reg_urbain,CS2.1.1.1,US3,Équipements,466.6
+IDF,D2_ocs_non_artif_reg_urbain,CS2.2.1,US1.1,Activités,439.7
+IDF,D2_ocs_non_artif_reg_urbain,CS2.1.1.1,US5,Habitat collectif,425.8
+HdF,D2_ocs_non_artif_reg_urbain,CS1.2.2,US3,Activité,409.7
+HdF,D1_ocs_artif_reg_enaf,CS1.1.1.2,US1.1,Agricole,342.2
+IDF,D2_ocs_non_artif_reg_urbain,CS2.2.1,US1.1,Équipements,339.7
+IDF,D2_ocs_non_artif_reg_urbain,CS2.1.1.1,US1.2,Équipements,264.5
+HdF,D1_ocs_artif_reg_enaf,CS1.1.2.1,US2,Agricole,221.0
+IDF,D2_ocs_non_artif_reg_urbain,CS2.1.1.1,US3,Activités,189.2
+HdF,D2_ocs_non_artif_reg_urbain,CS1.2.2,US2,Activité,183.8
+HdF,D1_ocs_artif_reg_enaf,CS1.1.2.1,US1.1,Naturel,165.7
+IDF,D2_ocs_non_artif_reg_urbain,CS2.1.1.1,US1.2,Activités,165.1
+HdF,D1_ocs_artif_reg_enaf,CS1.1.1.2,US3,Agricole,148.9
+HdF,D1_ocs_artif_reg_enaf,CS1.1.1.2,US2,Agricole,138.8
+HdF,D1_ocs_artif_reg_enaf,CS1.1.2.1,US3,Agricole,128.5
+HdF,D1_ocs_artif_reg_enaf,CS1.1.2.1,US2,Naturel,123.8
+IDF,D2_ocs_non_artif_reg_urbain,CS2.1.1.1,US3,Habitat collectif,115.2
+IDF,D2_ocs_non_artif_reg_urbain,CS2.2.1,US6.3,Équipements,88.9
+HdF,D1_ocs_artif_reg_enaf,CS1.1.2.1,US3,Naturel,85.0
+IDF,D2_ocs_non_artif_reg_urbain,CS2.1.1.1,US2,Activités,81.8
+IDF,D1_ocs_artif_reg_enaf,CS1.1.2.1,US1.1,Espaces agricoles,69.9
+HdF,D1_ocs_artif_reg_enaf,CS1.1.1.2,US3,Naturel,51.0
+IDF,D1_ocs_artif_reg_enaf,CS1.1.2.1,US3,Espaces agricoles,50.6
+HdF,D2_ocs_non_artif_reg_urbain,CS1.2.1,US6.3,Activité,50.4
+IDF,D1_ocs_artif_reg_enaf,CS1.1.1.2,US3,Eau,41.1
+IDF,D1_ocs_artif_reg_enaf,CS1.1.2.1,US3,Bois ou forêts,37.1
+IDF,D1_ocs_artif_reg_enaf,CS1.1.2.1,US1.1,Milieux semi-naturels,35.4
+IDF,D1_ocs_artif_reg_enaf,CS1.1.2.1,US3,Milieux semi-naturels,33.4
+IDF,D1_ocs_artif_reg_enaf,CS1.1.2.1,US2,Milieux semi-naturels,32.7
+IDF,D1_ocs_artif_reg_enaf,CS1.1.1.2,US1.4,Espaces agricoles,29.9
+IDF,D1_ocs_artif_reg_enaf,CS1.1.1.2,US1.1,Espaces agricoles,24.1
+HdF,D2_ocs_non_artif_reg_urbain,CS1.2.2,US6.3,Urbanisé autre,21.7
+IDF,D1_ocs_artif_reg_enaf,CS1.1.1.2,US3,Espaces agricoles,21.4
+HdF,D2_ocs_non_artif_reg_urbain,CS1.2.2,US5,Activité,8.6
+HdF,D2_ocs_non_artif_reg_urbain,CS1.2.1,US6.3,Urbanisé autre,4.5
+HdF,D2_ocs_non_artif_reg_urbain,CS1.2.2,US1.1,Activité,4.4
+HdF,D2_ocs_non_artif_reg_urbain,CS1.2.2,US1.4,Activité,2.8
+HdF,D2_ocs_non_artif_reg_urbain,CS1.2.2,US235,Activité,0.7

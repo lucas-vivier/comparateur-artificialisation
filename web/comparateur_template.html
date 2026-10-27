@@ -1,0 +1,479 @@
+<title>Comparateur d'occupation du sol</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+/*FONTS*/
+/*LEAFLET_CSS*/
+/* Charte des slides NAC (gabarit INSP) : Marianne, bleu État, rouge brique en accent, fond blanc.
+   Layout : bandeau titre + filet, deux cartes jumelles, colonne d'indicateurs ; documentation en panneau. */
+:root{
+  --navy:#000091; --blue-d:#2F4077; --blue:#8585F6; --red:#C8452F; --green:#297254;
+  --bg:#FFFFFF; --surface:#FFFFFF; --soft:#F5F5FE; --ink:#161616; --ink-2:#3A3A3A; --muted:#666666;
+  --rule:#DDDDDD; --map-bg:#F6F6F6; --outline:#3A3A3A;
+  --f:"Marianne", Arial, Helvetica, sans-serif;
+  color-scheme:light;
+}
+html,body{height:100%}
+body{background:var(--bg);color:var(--ink);font-family:var(--f);font-size:14px;line-height:1.5;-webkit-font-smoothing:antialiased;
+  padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px));padding-block:18px 28px}
+h1,h2,h3{font-weight:400;color:var(--navy);text-wrap:balance;margin:0;line-height:1.15}
+.eyebrow{font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--blue-d);font-weight:700}
+.top{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:10px 24px}
+.top h1{font-size:1.9rem;margin-top:6px}
+.top h1 .hl{color:var(--red)}
+.top p{margin:6px 0 0;color:var(--ink-2);max-width:72ch}
+.rule{border-bottom:1px solid var(--rule);margin:10px 0 16px}
+.actions{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.chip{border:1px solid var(--rule);border-radius:2px;padding:3px 9px;font-size:.78rem;color:var(--ink-2);white-space:nowrap}
+.chip.wait{border-style:dashed;color:var(--muted)}
+.btn{font:inherit;font-weight:500;font-size:.9rem;background:var(--navy);color:#fff;border:0;border-radius:0;padding:8px 14px;cursor:pointer;display:inline-flex;gap:8px;align-items:center}
+.btn:hover{background:#1212FF}
+.btn.ghost-btn{background:transparent;color:var(--navy);border:1px solid var(--navy)}
+.btn.ghost-btn:hover{background:var(--soft)}
+.btn:focus-visible,select:focus-visible,.linkbtn:focus-visible{outline:2px solid var(--red);outline-offset:2px}
+.grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr) 380px;gap:16px;align-items:start}
+.pane{min-width:0;display:flex;flex-direction:column;gap:6px}
+.pane-head{display:flex;align-items:center;gap:8px}
+.pane-head label{font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--blue-d);font-weight:700;white-space:nowrap}
+select{font:inherit;font-size:.9rem;color:var(--ink);background:var(--surface);border:0;border-bottom:2px solid var(--navy);border-radius:0;padding:6px 6px;min-width:0;flex:1;max-width:100%;background-color:#EEEEEE}
+.desc{font-size:.8rem;color:var(--ink-2);min-height:2.6em}
+.linkbtn{font:inherit;font-size:.8rem;background:none;border:0;padding:0;color:var(--navy);text-decoration:underline;cursor:pointer}
+.map{height:min(66vh,600px);min-height:320px;border:1px solid var(--rule);background:var(--map-bg)}
+.leaflet-container{background:var(--map-bg);font-family:var(--f)}
+.leaflet-image-layer{image-rendering:pixelated}
+.legend{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:.76rem;color:var(--ink-2);min-height:1.2em}
+.legend span{display:inline-flex;align-items:center;gap:5px}
+.legend i{width:11px;height:11px;display:inline-block;border:1px solid rgba(0,0,0,.18)}
+.side{display:flex;flex-direction:column;gap:16px;min-width:0}
+.card{border-top:3px solid var(--navy);padding-top:10px;min-width:0}
+.card h2{font-size:1.35rem}
+.card .sub{color:var(--muted);font-size:.8rem;margin:2px 0 10px}
+.kpis{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:10px}
+.kpi b{display:block;font-size:1.6rem;font-weight:700;color:var(--navy);font-variant-numeric:tabular-nums;line-height:1.1}
+.kpi small{color:var(--muted);font-size:.74rem}
+table{width:100%;border-collapse:collapse;font-size:.8rem}
+th{font-weight:700;color:var(--blue-d);text-align:right;font-size:.7rem;padding:3px 0 5px 10px;white-space:nowrap;letter-spacing:.04em}
+th:first-child{text-align:left;padding-left:0}
+td{padding:5px 0;border-top:1px solid var(--rule);vertical-align:middle}
+td.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;padding-left:10px}
+tr.ref td{font-weight:700;color:var(--navy)}
+tr.per td{font-size:.78rem;color:var(--blue-d);font-weight:700;line-height:1.2}
+.bar{height:5px;background:#C9C9E8;margin-top:4px}
+tr.ref .bar{background:var(--navy)}
+.note{font-size:.74rem;color:var(--muted);margin-top:8px}
+.foot{margin-top:22px;padding-top:10px;border-top:1px solid var(--rule);font-size:.76rem;color:var(--ink-2);max-width:120ch;display:grid;gap:4px}
+.foot b{letter-spacing:.04em}
+a{color:var(--navy)}
+.ghost{width:18px;height:18px;margin:-9px 0 0 -9px;border:2px solid var(--red);border-radius:50%;pointer-events:none;box-shadow:0 0 0 2px rgba(255,255,255,.7)}
+.leaflet-tooltip.tip{background:#fff;color:var(--ink);border:1px solid var(--rule);box-shadow:none;font-size:.78rem;padding:2px 6px;border-radius:0}
+.leaflet-tooltip.tip:before{display:none}
+.leaflet-control-zoom a{border-radius:0!important;color:var(--navy)!important}
+.toggle{display:inline-flex;align-items:center;gap:6px;font-size:.85rem;color:var(--navy);font-weight:500;cursor:pointer}
+.toggle input{accent-color:var(--navy);width:16px;height:16px}
+.hint{font-size:.76rem;color:var(--muted)}
+.cmp td.n{min-width:70px}
+.cmp td:first-child{padding-right:6px}
+.cmp tr.sep td{border-top:2px solid var(--rule)}
+.loading{position:absolute;right:8px;bottom:8px;z-index:500;font-size:.75rem;background:#fff;border:1px solid var(--rule);padding:2px 6px;color:var(--muted)}
+
+/* Documentation */
+dialog{border:0;padding:0;width:min(860px,100% - 32px);max-height:min(88vh,900px);color:var(--ink);background:#fff;box-shadow:0 10px 40px rgba(0,0,40,.25)}
+dialog::backdrop{background:rgba(0,0,40,.45)}
+.doc-head{position:sticky;top:0;background:var(--navy);color:#fff;display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 20px;z-index:2}
+.doc-head h2{color:#fff;font-size:1.3rem}
+.doc-head .eyebrow{color:var(--blue)}
+.doc-head button{font:inherit;background:transparent;color:#fff;border:1px solid rgba(255,255,255,.6);padding:5px 10px;cursor:pointer}
+.doc-nav{display:flex;flex-wrap:wrap;gap:6px 14px;padding:10px 20px;border-bottom:1px solid var(--rule);font-size:.82rem;position:sticky;top:62px;background:#fff;z-index:1}
+.doc-body{padding:6px 20px 24px;overflow:auto}
+.doc-body section{padding-top:14px}
+.doc-body h3{font-size:1.15rem;margin:6px 0 6px}
+.doc-body h3 .hl{color:var(--red)}
+.doc-body p,.doc-body li{max-width:72ch;color:var(--ink-2)}
+.doc-body p{margin:0 0 8px}
+.doc-body ul{margin:0 0 8px;padding-left:18px}
+.doc-body dl{display:grid;grid-template-columns:minmax(150px,auto) 1fr;gap:6px 16px;margin:6px 0 10px}
+.doc-body dt{font-weight:700;color:var(--navy)}
+.doc-body dd{margin:0;color:var(--ink-2)}
+.twocol{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.box{background:var(--soft);padding:10px 12px;border-left:3px solid var(--navy)}
+.box.red{border-left-color:var(--red);background:#FBEDEA}
+.box h4{margin:0 0 4px;color:var(--navy);font-size:.95rem}
+.ref{font-size:.72rem;color:var(--muted)}
+code{font-size:.82em;background:#EEEEEE;padding:0 3px}
+
+@media (max-width:1100px){.grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.side{grid-column:1 / -1;display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}}
+@media (max-width:700px){.grid{grid-template-columns:minmax(0,1fr)}.map{height:46vh;min-height:260px}.top h1{font-size:1.45rem}.twocol{grid-template-columns:1fr}.doc-body dl{grid-template-columns:1fr}.doc-nav{position:static}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+.controls{display:flex;flex-wrap:wrap;gap:14px 28px;align-items:flex-end;margin:0 0 16px}
+.ctl{display:flex;flex-direction:column;gap:5px;min-width:0}
+.ctl.checks{flex-direction:row;gap:18px;padding-bottom:6px}
+.ctl-lab{font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--blue-d);font-weight:700}
+.seg{display:flex;flex-wrap:wrap}
+.seg button{font:inherit;font-size:.9rem;font-weight:500;background:#fff;color:var(--navy);border:1px solid var(--navy);margin-left:-1px;padding:7px 14px;cursor:pointer}
+.seg button:first-child{margin-left:0}
+.seg button[aria-pressed="true"]{background:var(--navy);color:#fff}
+.seg button:focus-visible{outline:2px solid var(--red);outline-offset:2px;position:relative;z-index:1}
+#variante{flex:none;min-width:240px}
+#depSel{flex:none;min-width:200px}
+.toggle input:disabled + *{opacity:.5}
+#variante:disabled{opacity:.5}
+h2.src{font-size:1.3rem}
+h2.src small{font-size:.75rem;color:var(--muted);letter-spacing:.06em;margin-left:6px}
+.cmp3{font-size:.8rem}
+.cmp3 th{font-size:.68rem;letter-spacing:.03em;white-space:normal;vertical-align:bottom}
+.cmp3{table-layout:fixed}
+.cmp3 col.c-lab{width:43%}
+.cmp3 col.c-n{width:19%}
+.cmp3 td.n{min-width:0}
+.cmp3 td small{color:var(--muted);font-size:.68rem;margin-left:2px}
+.cmp3 tr.sep td{border-top:2px solid var(--rule)}
+.cmp3 td:first-child{padding-right:6px}
+.na{color:var(--muted)}
+.accord{font-size:.8rem;color:var(--ink-2);margin-top:8px}
+.accord b{color:var(--navy)}
+.legend .ecl{margin-left:6px;padding-left:10px;border-left:1px solid var(--rule)}
+.card + .card{margin-top:4px}
+@media (max-width:700px){#variante{min-width:0;width:100%}.ctl{width:100%}}
+</style>
+<header class="top">
+  <div>
+    <div class="eyebrow">NAC INSP · Île-de-France, Hauts-de-France et Bretagne</div>
+    <h1>Comparateur d'occupation du sol</h1>
+    <p>L'OCS GE à gauche, la base régionale à droite (MOS en Île-de-France, OCS2D dans les Hauts-de-France, MOS foncier en Bretagne) : les deux cartes bougent ensemble. Choisissez un département, puis cliquez une commune pour comparer ses chiffres à ceux du département.</p>
+  </div>
+  <div class="actions">
+    <label class="ctl-lab" for="depSel" style="align-self:center">Département</label>
+    <select id="depSel">
+      <optgroup label="Île-de-France">
+      <option value="75">Paris (75)</option><option value="77">Seine-et-Marne (77)</option><option value="78">Yvelines (78)</option>
+      <option value="91">Essonne (91)</option><option value="92">Hauts-de-Seine (92)</option><option value="93">Seine-Saint-Denis (93)</option>
+      <option value="94" selected>Val-de-Marne (94)</option><option value="95">Val-d'Oise (95)</option>
+      </optgroup>
+      <optgroup label="Hauts-de-France">
+      <option value="02">Aisne (02)</option><option value="59">Nord (59)</option><option value="60">Oise (60)</option>
+      <option value="62">Pas-de-Calais (62)</option><option value="80">Somme (80)</option>
+      </optgroup>
+      <optgroup label="Bretagne">
+      <option value="22">Côtes-d'Armor (22)</option><option value="29">Finistère (29)</option>
+      </optgroup>
+    </select>
+    <button class="btn" id="openDoc" type="button" aria-haspopup="dialog">Documentation</button>
+  </div>
+</header>
+<div class="rule"></div>
+
+<div class="controls">
+  <div class="ctl">
+    <span class="ctl-lab" id="dimLab">Dimension</span>
+    <div class="seg" role="group" aria-labelledby="dimLab">
+      <button type="button" data-dim="statut" aria-pressed="true">Statut 2021</button>
+      <button type="button" data-dim="detail" aria-pressed="false">Détail 2021</button>
+      <button type="button" data-dim="evolution" aria-pressed="false">Évolution</button>
+    </div>
+  </div>
+  <div class="ctl">
+    <label class="ctl-lab" for="variante">Règle OCS GE</label>
+    <select id="variante">
+      <option value="reference">Règle officielle</option>
+      <option value="sans_herbace">Pelouses urbaines non comptées</option>
+      <option value="seuil_0">Sans seuil</option>
+      <option value="seuil_1000">Seuil de 1 000 m²</option>
+      <option value="seuil_5000">Seuil de 5 000 m²</option>
+      <option value="corrige">Règle officielle, 2021 corrigé par l'IGN</option>
+    </select>
+  </div>
+  <div class="ctl checks">
+    <label class="toggle" for="ecarts"><input type="checkbox" id="ecarts"> Écarts</label>
+    <label class="toggle" for="parcelles"><input type="checkbox" id="parcelles"> Parcelles <small class="hint">(94)</small></label>
+  </div>
+  <div class="ctl hint" id="resNote" style="padding-bottom:8px"></div>
+</div>
+
+<main class="grid">
+  <section class="pane">
+    <div class="pane-head"><h2 class="src">OCS GE <small>IGN</small></h2></div>
+    <div class="desc" id="descA"></div>
+    <div id="mapA" class="map" style="position:relative"></div>
+    <div class="legend" id="legA"></div>
+  </section>
+  <section class="pane">
+    <div class="pane-head"><h2 class="src"><span id="mosNom">MOS</span> <small id="mosProd">Institut Paris Region</small></h2></div>
+    <div class="desc" id="descB"></div>
+    <div id="mapB" class="map" style="position:relative"></div>
+    <div class="legend" id="legB"></div>
+  </section>
+
+  <aside class="side">
+    <div class="card">
+      <div class="eyebrow">Comparaison</div>
+      <h2 id="tComName">Commune</h2>
+      <table class="cmp3" aria-label="Comparaison pour la commune"><colgroup><col class="c-lab"><col class="c-n"><col class="c-n"><col class="c-n"></colgroup>
+        <thead><tr><th></th><th>OCS GE</th><th class="thMos">MOS</th><th>Fichiers fonciers</th></tr></thead>
+        <tbody id="tCom"></tbody>
+      </table>
+      <div class="accord" id="aCom"></div>
+      <div class="note">Dans près de la moitié des communes, le rythme de la base régionale ou des Fichiers fonciers est inférieur à une tache de 2 500 m² en trois ans : à cette échelle, comparez surtout les surfaces et l'accord.</div>
+    </div>
+    <div class="card">
+      <h2 id="tDepName">Val-de-Marne</h2>
+      <table class="cmp3" aria-label="Comparaison pour le département"><colgroup><col class="c-lab"><col class="c-n"><col class="c-n"><col class="c-n"></colgroup>
+        <thead><tr><th></th><th>OCS GE</th><th class="thMos">MOS</th><th>Fichiers fonciers</th></tr></thead>
+        <tbody id="tDep"></tbody>
+      </table>
+      <div class="accord" id="aDep"></div>
+      <div class="note" id="tNote"></div>
+    </div>
+  </aside>
+</main>
+
+<footer class="foot">
+  <div><b>Données.</b> OCS GE 2.0, IGN · MOS 2021-2025, Institut Paris Region (février 2026) · Consommation d'ENAF 2011-2025, Cerema (Fichiers fonciers) · Parcelles Etalab (DGFiP), septembre 2026 · Contours communaux geo.api.gouv.fr. Licences ouvertes.</div>
+  <div><b>Statut.</b> Prototype de travail de la NAC, non validé. <button class="linkbtn" type="button" data-doc="doc-limites">Limites</button></div>
+</footer>
+
+<dialog id="doc" aria-labelledby="docTitle">
+  <div class="doc-head">
+    <div><div class="eyebrow">Documentation</div><h2 id="docTitle">Lire ce comparateur</h2></div>
+    <button type="button" id="closeDoc">Fermer</button>
+  </div>
+  <div class="doc-body">
+    <section>
+      <h3>Trois sources, <span class="hl">deux définitions</span></h3>
+      <dl>
+        <dt>OCS GE · IGN</dt><dd>Carte du sol (couverture et usage) qui mesure l'<b>artificialisation</b> au sens du décret 2023-1096 ; référence après 2031.</dd>
+        <dt>MOS · Institut Paris Region</dt><dd>Carte du sol en 79 postes qui mesure la <b>consommation d'espaces naturels, agricoles et forestiers (ENAF)</b> ; référence du SDRIF-E.</dd>
+        <dt>OCS2D · Région Hauts-de-France</dt><dd>Pour les Hauts-de-France, la colonne de droite affiche l'OCS2D, carte du sol régionale photo-interprétée (couverture × usage, plus fine que l'OCS GE). On utilise directement son classement NAF / non-NAF, établi par la Région (couche ENAF 2024). Millésimes 2021 et 2024 (2025 pour le Nord), les mêmes que l'OCS GE.</dd>
+        <dt>MOS foncier · Région Bretagne</dt><dd>Pour la Bretagne, la colonne de droite affiche le MOS foncier breton (50 postes, millésimes 2011, 2021 et 2024, licence ouverte). Le classement ENAF / non ENAF est celui du producteur (dictionnaire de données v1.2). Comparaison complète dans le Finistère (OCS GE 2021 et 2024) ; dans les Côtes-d'Armor, l'OCS GE porte sur 2021-2025 et le MOS sur 2021-2024. Le Morbihan et l'Ille-et-Vilaine n'ont pas d'année commune avec l'OCS GE pour 2021.</dd>
+        <dt>Fichiers fonciers · Cerema</dt><dd>Chiffres tirés du cadastre fiscal, sans carte : mesure officielle de la <b>consommation d'ENAF</b> pour 2021-2031. Ils donnent seulement un rythme annuel, pas de surface totale.</dd>
+      </dl>
+    </section>
+    <section>
+      <h3>Les réglages</h3>
+      <dl>
+        <dt>Dimension</dt><dd><b>Statut 2021</b> : artificialisé ou non, face à urbanisé ou ENAF. <b>Détail 2021</b> : couverture du sol face aux 12 postes du MOS. <b>Évolution</b> : ce qui est devenu artificialisé (2021-2024) face aux ENAF consommés (2021-2025).</dd>
+        <dt>Règle OCS GE</dt><dd>Change une convention de calcul de l'OCS GE : compter ou non les pelouses des zones urbaines, ou changer la taille sous laquelle une petite tache prend le statut de ses voisines (2 500 m² dans la règle officielle). <b>2021 corrigé</b> : règle officielle appliquée à la carte 2021 après les corrections publiées par l'IGN (patch correctif) ; la carte 2024 est inchangée. Les rythmes officiels actuels partent de la carte 2021 non corrigée : l'écart montre la part des changements qui viennent de corrections. Le MOS ne change pas.</dd>
+        <dt>Écarts</dt><dd>Estompe les cartes et surligne où elles divergent : orange = artificialisé pour l'OCS GE seulement ; vert-bleu = urbanisé pour le MOS seulement.</dd>
+        <dt>Parcelles</dt><dd>Parcelles cadastrales de la commune cliquée ; cliquez une parcelle pour sa référence et sa contenance.</dd>
+      </dl>
+    </section>
+    <section>
+      <h3>Ce que montrent les treize départements</h3>
+      <ul>
+        <li>L'OCS GE et la base régionale classent pareil 91 à 96 % du sol en Île-de-France, 95 à 97 % dans les Hauts-de-France.</li>
+        <li>La base régionale compte toujours plus de surface urbanisée que l'OCS GE de surface artificialisée : +16 % en Île-de-France (surtout parcs, jardins et boisements urbains), +13 % dans les Hauts-de-France.</li>
+        <li>Rythme brut, Île-de-France : OCS GE 1 185 ha/an, MOS 693, Fichiers fonciers 657. Hauts-de-France : OCS GE 2 154 ha/an, OCS2D 1 513, Fichiers fonciers 1 207. L'OCS GE mesure partout le rythme le plus élevé.</li>
+        <li>L'OCS GE compte aussi beaucoup de surfaces redevenues naturelles (684 ha/an dans les Hauts-de-France, dont 302 dans le Pas-de-Calais). Une partie vient des corrections de la carte 2021 par l'IGN : avec la carte 2021 corrigée (choix « 2021 corrigé »), le rythme net passe de 907 à 590 ha/an en Île-de-France et de 1 470 à 626 ha/an dans les Hauts-de-France.</li>
+        <li>Aisne : la carte 2024 ne reprend pas certaines corrections de 2021 (environ 1 000 ha de prairies reclassées en surfaces minérales agricoles), d'où un rythme net négatif avec la carte corrigée. Point à vérifier avec l'IGN.</li>
+        <li>Les Fichiers fonciers ignorent le domaine public : à Versailles (Satory), l'OCS GE et le MOS voient 27 et 11 ha/an, les Fichiers fonciers 0.</li>
+      </ul>
+    </section>
+    <section>
+      <h3>Le tableau</h3>
+      <ul>
+        <li><b>Surface artificialisée ou urbanisée</b> en 2021 et sa <b>part</b> du territoire.</li>
+        <li><b>Rythme brut</b> : surfaces devenues artificialisées (OCS GE, 2021-2024) ou ENAF consommés (MOS 2021-2025, Fichiers fonciers 2021-2024). <b>Rythme net</b> : moins les surfaces redevenues naturelles ; les Fichiers fonciers n'en donnent pas.</li>
+        <li><b>Accord</b> : part du sol classée pareil par les deux cartes affichées (en Évolution : part des changements repérés par les deux).</li>
+      </ul>
+    </section>
+    <section id="doc-limites">
+      <h3>Limites</h3>
+      <ul>
+        <li>MOS : postes 1 à 12 = ENAF, le reste = urbanisé (notre lecture, à confirmer avec l'Institut).</li>
+        <li>Les rythmes ne portent pas sur les mêmes périodes ; un rythme OCS GE mêle changement réel et corrections entre versions.</li>
+        <li>Les polygones OCS GE sont découpés par les limites communales pour les chiffres par commune ; total départemental conforme à la couche IGN à 0,03 % près.</li>
+        <li>Accord et écarts calculés sur les images des cartes (8 m à Paris et en petite couronne, 16 à 22 m en grande couronne) ; chiffres du tableau calculés sur une grille de 5 à 15 m.</li>
+        <li>À l'échelle communale, les rythmes sont souvent inférieurs à la taille minimale d'un objet : ils servent d'ordre de grandeur, pas de mesure.</li>
+        <li>Exemptions du décret (parcs publics, photovoltaïque) non appliquées. Cadastre sans valeur de bornage.</li>
+        <li>Prototype non relu par l'IGN, l'Institut Paris Region, la Région Hauts-de-France, la Région Bretagne ni le Cerema. Nord : millésimes 2021 et 2025 (OCS GE et OCS2D). Côtes-d'Armor : OCS GE 2021 et 2025.</li>
+      </ul>
+    </section>
+  </div>
+</dialog>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+(function(){
+const VNAME={reference:"Règle officielle",sans_herbace:"Pelouses urbaines non comptées",seuil_0:"Sans seuil",seuil_1000:"Seuil de 1 000 m²",seuil_5000:"Seuil de 5 000 m²",corrige:"Règle officielle, 2021 corrigé par l'IGN"};
+const suffix=v=>v==="reference"?"":"_"+v;
+const DIMS={
+  statut:{ A:v=>({id:"artif_2021"+(v==="reference"?"_ref":"_"+v), bin:c=>c==="1", desc:"Artificialisé ou non en 2021 · "+VNAME[v]+"."}),
+           B:()=>({id:"mos_enaf_2021", bin:c=>c==="2", desc:"ENAF ou urbanisé en 2021 ("+SRC().mos_enaf+")."}), evo:false },
+  detail:{ A:()=>({id:"couverture_2021", bin:c=>c.startsWith("CS1.1"), desc:"Couverture du sol en 2021 (couleurs IGN). La règle de calcul ne s'applique pas ici."}),
+           B:()=>({id:"mos_2021", bin:c=>+c>=5, desc:"Occupation du sol en 2021, "+(SRC().mos_detail?SRC().mos_detail+".":(SRC().mos_nom==="MOS"?"12 postes.":"7 classes de la couche ENAF."))}), evo:false },
+  evolution:{ A:v=>({id:"evolution_2021_2024"+suffix(v), bin:c=>c==="3", desc:"Devenu artificialisé (rouge) ou désartificialisé (vert), 2021 → 2024 · "+VNAME[v]+"."}),
+              B:()=>({id:"mos_evolution_2021_2025", bin:c=>c==="3", desc:"ENAF consommé (rouge) ou retour en ENAF (vert), "+SRC().mos_annees.join(" → ")+"."}), evo:true }
+};
+const fmt=(v,d=0)=> v==null||isNaN(v) ? "–" : v.toLocaleString("fr-FR",{minimumFractionDigits:d,maximumFractionDigits:d});
+const DEPS={"75":["Paris","75056"],"77":["Seine-et-Marne","77288"],"78":["Yvelines","78646"],"91":["Essonne","91228"],
+  "92":["Hauts-de-Seine","92050"],"93":["Seine-Saint-Denis","93008"],"94":["Val-de-Marne","94028"],"95":["Val-d'Oise","95500"],
+  "02":["Aisne","02408"],"59":["Nord","59350"],"60":["Oise","60057"],"62":["Pas-de-Calais","62041"],"80":["Somme","80021"],
+  "22":["Côtes-d'Armor","22278"],"29":["Finistère","29232"]};
+let DEP="94";
+const SRC_IDF={mos_nom:"MOS",mos_producteur:"Institut Paris Region",mos_annees:["2021","2025"],mos_enaf:"postes 1 à 12 = ENAF",ocsge_annees:["2021","2024"]};
+const SRC=()=>Object.assign({},SRC_IDF,(DATA&&DATA.sources)||{});
+const P=f=>DEP+"/"+f;
+const FFK=()=>(SRC().ocsge_annees[1]==="2025"?"2021-2025":"2021-2024");
+let DATA=null, selected=null, syncing=false, COM=null, PXHA=0, dim="statut", vari="reference";
+const maps={}, overlays={}, ecartLayers={}, communeLayers={}, ghosts={}, renderers={}, cadLayers={}, cadCache={}, binCache={}, ecartCache={};
+const cur={A:null,B:null};
+const $=id=>document.getElementById(id);
+
+/* Documentation */
+const dlg=$("doc");
+function openDoc(anchor){ if(!dlg.open){ try{dlg.showModal();}catch(e){dlg.setAttribute("open","");} } const t=anchor&&$(anchor); if(t) t.scrollIntoView({block:"start"}); }
+$("openDoc").addEventListener("click",()=>openDoc());
+$("closeDoc").addEventListener("click",()=>dlg.close());
+dlg.addEventListener("click",e=>{ if(e.target===dlg) dlg.close(); });
+document.querySelectorAll("[data-doc]").forEach(b=>b.addEventListener("click",()=>openDoc(b.dataset.doc)));
+
+/* Pixels -> classes */
+function loadPixels(src){ return new Promise((res,rej)=>{ const im=new Image(); im.onload=()=>{ const c=document.createElement("canvas"); c.width=im.width; c.height=im.height;
+  const x=c.getContext("2d",{willReadFrequently:true}); x.drawImage(im,0,0); res({d:x.getImageData(0,0,im.width,im.height).data,w:im.width,h:im.height}); }; im.onerror=rej; im.src=src; }); }
+async function communesIdx(){ if(COM) return COM; const {d,w,h}=await loadPixels(P("communes_idx.png")); const n=w*h; COM=new Uint16Array(n); let tot=0;
+  for(let i=0;i<n;i++){ COM[i]= d[i*4+3] ? (d[i*4]<<8)|d[i*4+1] : 0; if(COM[i]) tot++; }
+  COM.w=w; COM.h=h; PXHA=Object.values(DATA.indicateurs).reduce((s,x)=>s+x.surface_ha,0)/tot; return COM; }
+async function binaryOf(L0){
+  if(binCache[L0.id]) return binCache[L0.id];
+  const map=new Map(); DATA.legendes[L0.id].forEach(e=>map.set(parseInt(e.color.replace("#",""),16), (e.urb!==undefined?e.urb:L0.bin(e.code))?2:1));
+  const {d,w,h}=await loadPixels(P(L0.id+".png")); const n=w*h, out=new Uint8Array(n);
+  for(let i=0;i<n;i++){ if(!d[i*4+3]) continue; out[i]=map.get((d[i*4]<<16)|(d[i*4+1]<<8)|d[i*4+2])||1; }
+  return binCache[L0.id]=out;
+}
+
+/* Tableau */
+let tok=0;
+async function refresh(){
+  const t=++tok, A=cur.A, B=cur.B, evo=DIMS[dim].evo;
+  const com=await communesIdx(), a=await binaryOf(A), b=await binaryOf(B); if(t!==tok) return;
+  const N=DATA.communes.features.length+1, cnt=new Float64Array(N*4);
+  for(let i=0;i<com.length;i++){ const c=com[i]; if(!c) continue; const x=a[i]===2, y=b[i]===2; cnt[c*4+(x&&y?0:x?1:y?2:3)]++; }
+  const tot=[0,0,0,0]; for(let c=1;c<N;c++) for(let k=0;k<4;k++) tot[k]+=cnt[c*4+k];
+  const idx=DATA.communes.features.findIndex(f=>f.properties.insee===selected)+1;
+  const acc=v=>{ const s=v[0]+v[1]+v[2]+v[3], u=v[0]+v[1]+v[2]; return evo ? (u?100*v[0]/u:null) : (s?100*(v[0]+v[3])/s:null); };
+  const accTxt=v=>(evo?"Changements repérés par les deux cartes : ":"Accord OCS GE / "+SRC().mos_nom+" sur la carte affichée : ")+"<b>"+fmt(acc(v),1)+" %</b>";
+  $("aCom").innerHTML=idx?accTxt([0,1,2,3].map(k=>cnt[idx*4+k])):""; $("aDep").innerHTML=accTxt(tot);
+  if(ecartsOn()) drawEcarts(a,b,com);
+}
+function rows(ind, surf){
+  const o=ind.stock[vari]?ind.stock[vari]["2021"]:null, m=ind.mos?ind.mos.urbain_2021:null;
+  const fb=ind.flux_brut&&ind.flux_brut[vari]?ind.flux_brut[vari].artif:null, fn=ind.flux[vari]?ind.flux[vari]["2021-2024"]:null;
+  const mb=ind.mos?ind.mos.conso_brute_ha_an:null, mn=ind.mos?ind.mos.conso_nette_ha_an:null, cb=ind.cerema?ind.cerema[FFK()]:null;
+  const S=SRC(), per=y=>y[0]+'–'+y[1].slice(2)+'<br><small>'+(y[1]-y[0])+' ans</small>';
+  const d=Math.max(...[fb,fn,mb,mn,cb].map(x=>Math.abs(x||0)))<5?2:1, na='<span class="na">–</span>';
+  const tr=(lab,c1,c2,c3,cls)=>'<tr'+(cls?' class="'+cls+'"':'')+'><td>'+lab+'</td><td class="n">'+c1+'</td><td class="n">'+c2+'</td><td class="n">'+c3+'</td></tr>';
+  return tr("Artificialisé ou urbanisé en 2021 <small>ha</small>", fmt(o), fmt(m), na)
+       + tr("Part du territoire <small>%</small>", fmt(100*o/surf), fmt(100*m/surf), na)
+       + tr("Période des rythmes", per(S.ocsge_annees), per(S.mos_annees), per(FFK().split("-")), "sep per")
+       + tr("Rythme brut <small>ha/an</small>", fmt(fb,d), fmt(mb,d), fmt(cb,d))
+       + tr("Rythme net <small>ha/an</small>", fmt(fn,d), fmt(mn,d), na);
+}
+function fillTables(){
+  const ind=DATA.indicateurs[selected], dep=DATA.departement;
+  $("tComName").textContent=nameOf(selected);
+  $("tCom").innerHTML=ind?rows(ind, ind.surface_ha):'<tr><td colspan="4">Pas de données</td></tr>';
+  $("tDep").innerHTML=rows({stock:dep.stock, flux:dep.flux, flux_brut:dep.flux_brut, mos:dep.mos, cerema:dep.cerema}, dep.surface_ha);
+  const S=SRC(); $("tNote").innerHTML="Rythme brut : surfaces devenues artificialisées ou urbanisées. Rythme net : moins celles qui sont redevenues naturelles. Chaque rythme est la moyenne annuelle entre les deux années indiquées (variante OCS GE : "+VNAME[vari].toLowerCase()+"). Fichiers fonciers : rythme brut seulement, pas de surface totale.";
+}
+
+/* Écarts : image calculée dans le navigateur */
+const ecartsOn=()=>$("ecarts").checked;
+function drawEcarts(a,b,com){
+  const key=cur.A.id+"|"+cur.B.id;
+  const place=url=>{ ["A","B"].forEach(k=>{ if(ecartLayers[k]) maps[k].removeLayer(ecartLayers[k]); ecartLayers[k]=L.imageOverlay(url, DATA.bounds,{interactive:false,opacity:1}).addTo(maps[k]); ecartLayers[k].bringToFront(); if(overlays[k]) overlays[k].setOpacity(0.3); }); legends(); };
+  if(ecartCache[key]) return place(ecartCache[key]);
+  const c=document.createElement("canvas"); c.width=com.w; c.height=com.h; const x=c.getContext("2d"); const img=x.createImageData(com.w,com.h), p=img.data;
+  for(let i=0;i<a.length;i++){ const u=a[i]===2, v=b[i]===2; if(u===v || !a[i] || !b[i]) continue; const j=i*4;
+    if(u){ p[j]=240; p[j+1]=162; p[j+2]=26; } else { p[j]=0; p[j+1]=144; p[j+2]=129; } p[j+3]=255; }
+  x.putImageData(img,0,0);
+  c.toBlob(bl=>{ const url=URL.createObjectURL(bl); ecartCache[key]=url; if(ecartsOn() && cur.A.id+"|"+cur.B.id===key) place(url); });
+}
+function clearEcarts(){ ["A","B"].forEach(k=>{ if(ecartLayers[k]){ maps[k].removeLayer(ecartLayers[k]); ecartLayers[k]=null; } if(overlays[k]) overlays[k].setOpacity(1); }); legends(); }
+
+/* Cartes */
+function makeMap(key, el){
+  const m=L.map(el,{zoomControl:true,attributionControl:false,minZoom:8,maxZoom:18,zoomSnap:0.25}); maps[key]=m;
+  const other=key==="A"?"B":"A";
+  m.createPane("cad"); m.getPane("cad").style.zIndex=450; renderers[key]=L.canvas({pane:"cad",padding:0.2});
+  m.on("move zoom",()=>{ if(syncing) return; syncing=true; maps[other].setView(m.getCenter(),m.getZoom(),{animate:false}); syncing=false; });
+  m.on("mousemove",e=>{ ghosts[other].setLatLng(e.latlng); if(!maps[other].hasLayer(ghosts[other])) ghosts[other].addTo(maps[other]); });
+  m.on("mouseout",()=>maps[other].removeLayer(ghosts[other]));
+  m.on("click",e=>{ if(cadLayers[key]){ const c=communeAt(e.latlng); if(c && c!==selected) select(c); } });
+  ghosts[key]=L.marker([0,0],{icon:L.divIcon({className:"ghost",iconSize:null}),interactive:false,keyboard:false});
+}
+function legends(){
+  ["A","B"].forEach(k=>{ const leg=$("leg"+k); leg.innerHTML="";
+    (DATA.legendes[cur[k].id]||[]).forEach(e=>{ const s=document.createElement("span"); s.innerHTML='<i style="background:'+e.color+'"></i>'; s.append(e.label); leg.appendChild(s); });
+    if(ecartLayers[k]){ const s=document.createElement("span"); s.className="ecl"; s.innerHTML='<b>Écarts</b> <i style="background:#F0A21A;margin-left:6px"></i>OCS GE seulement <i style="background:#009081;margin-left:8px"></i>MOS seulement'; leg.appendChild(s); }
+    if(cadLayers[k] && cadCache[selected]){ const s=document.createElement("span"); s.className="ecl"; s.textContent=fmt(cadCache[selected].features.length)+" parcelles"; leg.appendChild(s); } });
+}
+function apply(){
+  const D=DIMS[dim]; cur.A=D.A(vari); cur.B=D.B();
+  $("variante").disabled = dim==="detail";
+  ["A","B"].forEach(k=>{ const m=maps[k], L0=cur[k];
+    if(overlays[k]) m.removeLayer(overlays[k]);
+    const loading=document.createElement("div"); loading.className="loading"; loading.textContent="Chargement…"; m.getContainer().appendChild(loading);
+    overlays[k]=L.imageOverlay(P(L0.id+".png"), DATA.bounds,{interactive:false,opacity:ecartsOn()?0.3:1}).on("load error",()=>loading.remove()).addTo(m); overlays[k].bringToBack();
+    $("desc"+k).textContent=L0.desc; });
+  if(!ecartsOn()) clearEcarts();
+  legends(); fillTables(); refresh();
+}
+function styleFor(f){ const on=selected && f.properties.insee===selected; return {color:on?"#000000":"#3A3A3A",weight:on?3:0.7,opacity:on?1:0.5,fill:true,fillOpacity:0}; }
+function restyle(){ Object.values(communeLayers).forEach(g=>{ g.setStyle(styleFor); g.eachLayer(l=>{ if(l.feature.properties.insee===selected) l.bringToFront(); }); }); }
+function addCommunes(key){ communeLayers[key]=L.geoJSON(DATA.communes,{style:styleFor,onEachFeature:(f,l)=>{ l.bindTooltip(f.properties.nom,{sticky:true,className:"tip",direction:"top"}); l.on("click",()=>select(f.properties.insee)); }}).addTo(maps[key]); }
+function pip(pt,ring){ let x=pt[0],y=pt[1],ins=false; for(let i=0,j=ring.length-1;i<ring.length;j=i++){ const xi=ring[i][0],yi=ring[i][1],xj=ring[j][0],yj=ring[j][1]; if(((yi>y)!==(yj>y))&&(x<(xj-xi)*(y-yi)/(yj-yi)+xi)) ins=!ins; } return ins; }
+function communeAt(ll){ const pt=[ll.lng,ll.lat]; for(const f of DATA.communes.features){ const g=f.geometry, P=g.type==="Polygon"?[g.coordinates]:g.coordinates; for(const p of P) if(pip(pt,p[0])) return f.properties.insee; } return null; }
+const nameOf=insee=>{ const f=DATA.communes.features.find(x=>x.properties.insee===insee); return f?f.properties.nom:insee; };
+
+/* Parcelles */
+function drawParcelles(){
+  ["A","B"].forEach(k=>{ if(cadLayers[k]){ maps[k].removeLayer(cadLayers[k]); cadLayers[k]=null; } });
+  if(!$("parcelles").checked || !selected || DEP!=="94"){ legends(); return; }
+  const want=selected;
+  const draw=gj=>{ if(!$("parcelles").checked || selected!==want) return;
+    ["A","B"].forEach(k=>{ if(cadLayers[k]) maps[k].removeLayer(cadLayers[k]);
+      cadLayers[k]=L.geoJSON(gj,{pane:"cad",renderer:renderers[k],style:()=>({color:"#161616",weight:0.6,opacity:0.8,fill:true,fillOpacity:0}),
+        onEachFeature:(f,l)=>l.on("click",e=>{ L.DomEvent.stopPropagation(e); const p=f.properties;
+          L.popup({className:"tip"}).setLatLng(e.latlng).setContent("<b>Parcelle "+p.r+"</b><br>"+(p.c!=null?fmt(p.c)+" m²":"contenance non renseignée")).openOn(maps[k]); })}).addTo(maps[k]); });
+    legends(); };
+  if(cadCache[want]) return draw(cadCache[want]);
+  fetch("cadastre/"+want+".json").then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); }).then(gj=>{ cadCache[want]=gj; draw(gj); })
+    .catch(()=>{ $("legA").append(" · Parcelles indisponibles pour cette commune."); });
+}
+
+function select(insee){ selected=insee; restyle(); fillTables(); refresh(); drawParcelles(); }
+function init(){
+  makeMap("A","mapA"); makeMap("B","mapB");
+  const segs=[...document.querySelectorAll("[data-dim]")];
+  segs.forEach(s=>s.addEventListener("click",()=>{ dim=s.dataset.dim; segs.forEach(x=>x.setAttribute("aria-pressed",String(x===s))); apply(); }));
+  $("variante").addEventListener("change",e=>{ vari=e.target.value; apply(); });
+  $("ecarts").addEventListener("change",()=>{ if(ecartsOn()) refresh(); else clearEcarts(); });
+  $("parcelles").addEventListener("change",drawParcelles);
+  $("depSel").addEventListener("change",e=>loadDep(e.target.value));
+  window.addEventListener("resize",()=>{ maps.A.invalidateSize(); maps.B.invalidateSize(); });
+  loadDep(DEP);
+}
+function loadDep(dep){
+  DEP=dep; $("depSel").value=dep;
+  $("tCom").innerHTML='<tr><td colspan="4">Chargement…</td></tr>';
+  fetch(P("data.json")).then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); }).then(d=>{
+    DATA=d; COM=null; PXHA=0; tok++;
+    for(const k in binCache) delete binCache[k]; for(const k in ecartCache){ URL.revokeObjectURL(ecartCache[k]); delete ecartCache[k]; }
+    ["A","B"].forEach(k=>{ if(communeLayers[k]) maps[k].removeLayer(communeLayers[k]); if(cadLayers[k]){ maps[k].removeLayer(cadLayers[k]); cadLayers[k]=null; }
+      if(ecartLayers[k]){ maps[k].removeLayer(ecartLayers[k]); ecartLayers[k]=null; } });
+    const b=L.latLngBounds(DATA.bounds); [maps.A,maps.B].forEach(m=>m.setMaxBounds(null)); maps.A.fitBounds(b); syncing=true; maps.B.setView(maps.A.getCenter(), maps.A.getZoom(), {animate:false}); syncing=false;
+    maps.A.setMaxBounds(b.pad(0.3)); maps.B.setMaxBounds(b.pad(0.3));
+    addCommunes("A"); addCommunes("B");
+    $("tDepName").textContent=DEPS[dep][0];
+    const S=SRC(); $("mosNom").textContent=S.mos_nom; $("mosProd").textContent=S.mos_producteur;
+    document.querySelectorAll(".thMos").forEach(x=>x.textContent=S.mos_nom);
+    const pid=DEPS[dep][1]; selected=DATA.indicateurs[pid]?pid:DATA.communes.features[0].properties.insee; restyle();
+    $("parcelles").disabled = dep!=="94"; $("parcelles").parentElement.title = dep!=="94" ? "Parcelles disponibles pour le Val-de-Marne seulement (prototype)" : "";
+    $("resNote").textContent="Cartes à "+fmt(DATA.res_m*Math.cos((DATA.bounds[0][0]+DATA.bounds[1][0])/2*Math.PI/180),0)+" m environ par pixel.";
+    const oc=document.querySelector('#variante option[value="corrige"]'), okc=!!DATA.departement.stock.corrige;
+    oc.disabled=!okc; oc.textContent="Règle officielle, 2021 corrigé par l'IGN"+(okc?"":" (à venir)");
+    if(!okc && vari==="corrige"){ vari="reference"; $("variante").value="reference"; }
+    apply(); drawParcelles();
+  }).catch(e=>{ $("tCom").innerHTML='<tr><td colspan="4">Les données n\'ont pas pu être chargées ('+e.message+').</td></tr>'; });
+}
+init();
+})();
+</script>

@@ -1,0 +1,32 @@
+[project]
+name = "occsol"
+version = "0.1.0"
+description = "Comparaison OCS GE / MOS et simulations de mesure de l'artificialisation (NAC INSP)"
+requires-python = ">=3.10"
+dependencies = [
+  "geopandas>=0.14",
+  "pyogrio>=0.7",
+  "shapely>=2.0",
+  "pandas>=2.0",
+  "pyyaml>=6.0",
+  "requests>=2.31",
+  "py7zr>=0.20",
+  "matplotlib>=3.8",
+  "typer>=0.12",
+  "scipy>=1.11",
+  "pyarrow>=14",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ipykernel"]
+web = ["rasterio>=1.3", "pillow>=10"]
+
+[project.scripts]
+occsol = "occsol.cli:app"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/occsol"]

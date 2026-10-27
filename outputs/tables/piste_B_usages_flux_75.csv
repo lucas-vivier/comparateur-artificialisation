@@ -1,0 +1,22 @@
+dep,code_us,libelle,devenu_artif_ha_usage_fin,part_usage_fin,devenu_artif_ha_usage_2021,desartif_ha_usage_2021
+75,US1.1,Agriculture,0.0,0.0,0.0,0.0
+75,US1.2,Sylviculture,0.0,0.0,0.13,0.0
+75,US1.3,Activités d'extraction,0.0,0.0,0.0,0.0
+75,US1.4,Pêche et Aquaculture,0.0,0.0,0.0,0.0
+75,US1.5,Autres productions primaires,0.0,0.0,0.0,0.0
+75,US2,Production secondaire,0.0,0.0,0.0,0.0
+75,US235,"Production secondaire, tertiaire et usage résidentiel",0.0,0.0,0.0,0.0
+75,US3,Production tertiaire,10.87,0.8376,10.71,3.82
+75,US4.1.1,Réseaux routiers,0.94,0.072,1.03,0.34
+75,US4.1.2,Réseaux ferrés,0.21,0.0164,0.01,0.0
+75,US4.1.3,Réseaux aériens,0.0,0.0,0.0,0.0
+75,US4.1.4,Réseaux de transport fluvial et maritime,0.0,0.0,0.0,0.0
+75,US4.1.5,Autres réseaux de transport,0.0,0.0,0.0,0.0
+75,US4.2,Services logistiques et de stockage,0.0,0.0,0.0,0.0
+75,US4.3,Réseaux d'utilité publique,0.0,0.0,0.0,0.0
+75,US5,Usage résidentiel,0.46,0.0356,0.78,0.27
+75,US6.1,Zones en transition,0.49,0.0376,0.0,0.0
+75,US6.2,Zones abandonnées,0.0,0.0,0.0,0.0
+75,US6.3,Sans usage,0.01,0.0008,0.32,0.0
+75,US6.6,Usage inconnu,0.0,0.0,0.0,0.0
+75,TOTAL,"periode 2021-2024 (3 ans), grille 5 m",12.98,1.0,12.98,4.43

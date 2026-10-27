@@ -1,0 +1,9 @@
+region,sens,detail_seuil,ha
+HdF,D1_ocs_artif_reg_enaf,bascule_seuillage,513.0
+HdF,D1_ocs_artif_reg_enaf,contour,3989.8
+HdF,D2_ocs_non_artif_reg_urbain,bascule_seuillage,190.6
+HdF,D2_ocs_non_artif_reg_urbain,contour,10919.9
+IDF,D1_ocs_artif_reg_enaf,bascule_seuillage,204.4
+IDF,D1_ocs_artif_reg_enaf,contour,2259.0
+IDF,D2_ocs_non_artif_reg_urbain,bascule_seuillage,163.8
+IDF,D2_ocs_non_artif_reg_urbain,contour,5642.4

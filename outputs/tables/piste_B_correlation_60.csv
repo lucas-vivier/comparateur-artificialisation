@@ -1,0 +1,5 @@
+dep,periode,selection,x,y,n_carreaux,n_non_nuls,somme_x_ha,somme_y_ha,pearson,spearman,pearson_non_nuls,n_ocs>0_ff=0,n_ff>0_ocs=0
+60,2021-2024,inclus_>=0.99,ocs_brut_ha,ff_total_ha,5557,1760,830.68,545.69,0.395,0.342,0.36,792,450
+60,2021-2024,inclus_>=0.99,ocs_routes_ha,ff_rou_ha,5557,280,32.02,38.57,0.038,0.093,-0.027,70,195
+60,2021-2024,tous_intersectant,ocs_brut_ha,ff_total_ha,6267,1893,854.26,596.06,0.387,0.331,0.35,829,527
+60,2021-2024,tous_intersectant,ocs_routes_ha,ff_rou_ha,6267,299,32.67,46.2,0.039,0.095,-0.032,72,211

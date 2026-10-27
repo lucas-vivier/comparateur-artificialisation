@@ -1,0 +1,1103 @@
+region,sens,famille,cs,us,r_classe,ha
+HdF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US5,Agricole,7385.0
+HdF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US3,Naturel,3828.6
+HdF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.1.1,US1.1,Agricole,2359.8
+HdF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US3,Agricole,2349.7
+HdF,D1_ocs_artif_reg_enaf,e_residu,CS1.1.2.1,US1.1,Agricole,1795.8
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US5,Agricole,1489.2
+HdF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US5,Naturel,1005.6
+HdF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US5,Forêt,469.0
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US5,Forêt,464.2
+HdF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.1.1,US5,Agricole,454.3
+HdF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US2,Agricole,415.0
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.2,US4.1.1,Agricole,388.7
+HdF,D1_ocs_artif_reg_enaf,c_chantiers_carrieres_infra,CS1.1.1.2,US4.1.1,Agricole,370.9
+HdF,D1_ocs_artif_reg_enaf,e_residu,CS1.1.1.2,US1.1,Agricole,342.2
+HdF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US2,Naturel,298.2
+HdF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US4.3,Naturel,249.0
+HdF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US3,Forêt,234.1
+HdF,D1_ocs_artif_reg_enaf,e_residu,CS1.1.2.1,US2,Agricole,221.0
+HdF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US4.1.1,Agricole,212.2
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US3,Agricole,185.0
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US1.1,Agricole,182.3
+HdF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.1.1,US3,Agricole,173.2
+HdF,D1_ocs_artif_reg_enaf,e_residu,CS1.1.2.1,US1.1,Naturel,165.7
+HdF,D1_ocs_artif_reg_enaf,c_chantiers_carrieres_infra,CS1.1.1.2,US4.1.1,Naturel,161.4
+HdF,D1_ocs_artif_reg_enaf,e_residu,CS1.1.1.2,US3,Agricole,148.9
+HdF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.1.2,US5,Agricole,141.0
+HdF,D1_ocs_artif_reg_enaf,e_residu,CS1.1.1.2,US2,Agricole,138.8
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US3,Naturel,137.2
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US3,Forêt,135.5
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US5,Naturel,128.9
+HdF,D1_ocs_artif_reg_enaf,e_residu,CS1.1.2.1,US3,Agricole,128.5
+HdF,D1_ocs_artif_reg_enaf,e_residu,CS1.1.2.1,US2,Naturel,123.8
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.2,US4.1.1,Naturel,118.1
+HdF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US4.1.3,Agricole,114.8
+HdF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US4.1.1,Naturel,111.8
+HdF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US4.3,Agricole,106.3
+HdF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.2.1,US5,Agricole,101.5
+HdF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.1.1,US2,Agricole,91.9
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.1.1.1,US3,Naturel,88.9
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.1.1.1,US5,Forêt,88.2
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.2,US4.1.1,Forêt,85.3
+HdF,D1_ocs_artif_reg_enaf,e_residu,CS1.1.2.1,US3,Naturel,85.0
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.1.1.1,US5,Agricole,82.7
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.1,US1.1,Agricole,79.7
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US4.1.1,Agricole,77.9
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US1.1,Agricole,62.8
+HdF,D1_ocs_artif_reg_enaf,c_chantiers_carrieres_infra,CS1.1.1.2,US4.1.1,Forêt,61.4
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.1.1.1,US5,Naturel,58.6
+HdF,D1_ocs_artif_reg_enaf,c_chantiers_carrieres_infra,CS1.1.2.1,US4.1.2,Naturel,53.9
+HdF,D1_ocs_artif_reg_enaf,e_residu,CS1.1.1.2,US3,Naturel,51.0
+HdF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US4.3,Forêt,43.6
+HdF,D1_ocs_artif_reg_enaf,c_chantiers_carrieres_infra,CS1.1.2.1,US6.1,Naturel,43.4
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.1,US5,Agricole,42.8
+HdF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US4.1.2,Naturel,41.0
+HdF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US4.1.2,Agricole,38.7
+HdF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US2,Forêt,37.6
+HdF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US4.1.1,Forêt,37.6
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US2,Agricole,37.6
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.2,US1.1,Agricole,32.9
+HdF,D1_ocs_artif_reg_enaf,c_chantiers_carrieres_infra,CS1.1.2.1,US4.3,Naturel,30.8
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US3,Agricole,29.5
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.2,US3,Agricole,25.2
+HdF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.1.1,US5,Forêt,22.8
+HdF,D1_ocs_artif_reg_enaf,c_chantiers_carrieres_infra,CS1.1.2.1,US6.1,Agricole,22.4
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.1.1.1,US3,Forêt,21.8
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US4.3,Agricole,21.4
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US4.3,Forêt,20.9
+HdF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.1.1,US1.1,Forêt,20.2
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US2,Agricole,19.4
+HdF,D1_ocs_artif_reg_enaf,e_residu,CS1.1.2.1,US1.1,Forêt,18.8
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US2,Naturel,17.4
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US2,Forêt,16.7
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US4.1.2,Agricole,16.6
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.2,US3,Naturel,16.3
+HdF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US4.1.2,Forêt,16.2
+HdF,D1_ocs_artif_reg_enaf,c_chantiers_carrieres_infra,CS1.1.1.1,US1.3,Naturel,15.2
+HdF,D1_ocs_artif_reg_enaf,c_chantiers_carrieres_infra,CS1.1.1.2,US1.3,Naturel,15.1
+HdF,D1_ocs_artif_reg_enaf,c_chantiers_carrieres_infra,CS1.1.2.1,US4.1.1,Agricole,15.0
+HdF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.1.1,US5,Naturel,14.6
+HdF,D1_ocs_artif_reg_enaf,c_chantiers_carrieres_infra,CS1.1.2.1,US4.3,Agricole,14.1
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.2,US2,Agricole,13.8
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.1.1.1,US3,Agricole,13.7
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.2,US5,Agricole,13.5
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US4.1.1,Forêt,13.4
+HdF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US6.1,Naturel,12.1
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.2.2,US3,Naturel,11.6
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US5,Agricole,11.2
+HdF,D1_ocs_artif_reg_enaf,e_residu,CS1.1.2.1,US3,Forêt,10.9
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.2.2,US5,Naturel,10.6
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US3,Forêt,10.5
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.2.2,US6.3,Naturel,10.5
+HdF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.1.1,US1.1,Naturel,10.4
+HdF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.1.1,US3,Naturel,10.3
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US6.3,Agricole,10.1
+HdF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.2.1,US5,Naturel,9.9
+HdF,D1_ocs_artif_reg_enaf,c_chantiers_carrieres_infra,CS1.1.2.1,US4.1.2,Agricole,9.8
+HdF,D1_ocs_artif_reg_enaf,c_chantiers_carrieres_infra,CS1.1.2.1,US4.1.2,Forêt,9.8
+HdF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US4.2,Agricole,9.6
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US1.1,Forêt,9.4
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US3,Naturel,9.0
+HdF,D1_ocs_artif_reg_enaf,c_chantiers_carrieres_infra,CS1.1.2.1,US6.1,Forêt,8.6
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US1.1,Naturel,8.2
+HdF,D1_ocs_artif_reg_enaf,e_residu,CS1.1.1.2,US2,Naturel,8.2
+HdF,D1_ocs_artif_reg_enaf,c_chantiers_carrieres_infra,CS1.1.1.2,US4.3,Agricole,8.1
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.1,US3,Agricole,7.9
+HdF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.1.2,US5,Naturel,7.6
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US4.1.1,Naturel,7.4
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.2,US3,Forêt,7.2
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US6.1,Agricole,7.1
+HdF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US6.1,Agricole,6.6
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US4.3,Naturel,6.6
+HdF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.2.1,US5,Forêt,6.3
+HdF,D1_ocs_artif_reg_enaf,e_residu,CS1.1.2.1,US1.2,Naturel,6.2
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.1,US5,Naturel,6.1
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.1.1.1,US2,Naturel,6.0
+HdF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.1.1,US3,Forêt,5.7
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US2,Naturel,5.5
+HdF,D1_ocs_artif_reg_enaf,c_chantiers_carrieres_infra,CS1.1.2.1,US4.1.1,Naturel,5.4
+HdF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.1.1,US2,Naturel,5.3
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US2,Forêt,4.8
+HdF,D1_ocs_artif_reg_enaf,e_residu,CS1.1.1.2,US3,Forêt,4.8
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.2,US2,Naturel,4.7
+HdF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.1.1,US6.2,Agricole,4.7
+HdF,D1_ocs_artif_reg_enaf,e_residu,CS1.1.1.2,US1.1,Naturel,4.7
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.1.1.1,US6.3,Forêt,4.6
+HdF,D1_ocs_artif_reg_enaf,c_chantiers_carrieres_infra,CS1.1.1.1,US4.3,Agricole,4.4
+HdF,D1_ocs_artif_reg_enaf,e_residu,CS1.1.1.2,US1.4,Agricole,4.4
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.1,US5,Forêt,4.3
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.1.1.1,US2,Forêt,4.1
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.1,US2,Agricole,4.0
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US6.1,Naturel,3.8
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US4.1.2,Forêt,3.7
+HdF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.1.2,US5,Forêt,3.7
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US4.1.2,Forêt,3.6
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.2,US2,Forêt,3.5
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US4.1.2,Naturel,3.4
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US4.1.2,Naturel,3.4
+HdF,D1_ocs_artif_reg_enaf,e_residu,CS1.1.2.1,US2,Forêt,3.3
+HdF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US235,Agricole,3.1
+HdF,D1_ocs_artif_reg_enaf,c_chantiers_carrieres_infra,CS1.1.1.2,US4.3,Naturel,3.1
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US4.1.3,Agricole,3.0
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US4.1.2,Agricole,2.8
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.1.1.1,US4.1.1,Naturel,2.8
+HdF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US4.2,Naturel,2.6
+HdF,D1_ocs_artif_reg_enaf,c_chantiers_carrieres_infra,CS1.1.1.2,US4.1.2,Agricole,2.6
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.1,US3,Naturel,2.5
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.1.1.1,US2,Agricole,2.4
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.1.1.3,US3,Naturel,2.3
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US6.3,Naturel,2.3
+HdF,D1_ocs_artif_reg_enaf,e_residu,CS1.1.1.2,US6.2,Naturel,2.3
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US6.1,Forêt,2.2
+HdF,D1_ocs_artif_reg_enaf,c_chantiers_carrieres_infra,CS1.1.2.1,US4.1.1,Forêt,2.2
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.2,US4.3,Agricole,2.1
+HdF,D1_ocs_artif_reg_enaf,c_chantiers_carrieres_infra,CS1.1.1.2,US4.1.2,Naturel,2.1
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.2.2,US4.1.4,Naturel,2.0
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.1.1.1,US6.3,Agricole,2.0
+HdF,D1_ocs_artif_reg_enaf,e_residu,CS1.1.1.2,US1.4,Naturel,2.0
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.2,US1.3,Naturel,1.9
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.1.2,US3,Naturel,1.9
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.2,US5,Forêt,1.7
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US5,Forêt,1.7
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.1.1.1,US4.1.1,Forêt,1.7
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.2,US4.1.4,Naturel,1.6
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US4.1.1,Agricole,1.6
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US4.3,Agricole,1.6
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.1.1.3,US5,Forêt,1.6
+HdF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.2.1,US235,Agricole,1.6
+HdF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.2.1,US235,Naturel,1.6
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US4.1.1,Naturel,1.4
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.2.2,US6.3,Agricole,1.4
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.1.1.1,US6.3,Naturel,1.4
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.1,US3,Forêt,1.3
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.1.1.3,US5,Naturel,1.3
+HdF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.1.1,US1.4,Agricole,1.3
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.2,US5,Naturel,1.2
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US4.3,Naturel,1.2
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US1.1,Naturel,1.2
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US4.2,Agricole,1.2
+HdF,D1_ocs_artif_reg_enaf,c_chantiers_carrieres_infra,CS1.1.1.1,US6.1,Agricole,1.2
+HdF,D1_ocs_artif_reg_enaf,e_residu,CS1.1.1.2,US2,Forêt,1.2
+HdF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US4.1.3,Naturel,1.1
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.2,US1.1,Forêt,1.1
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US4.1.1,Forêt,1.1
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.2.2,US3,Agricole,1.1
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.2.2,US5,Agricole,1.1
+HdF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US4.2,Forêt,1.0
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US4.3,Forêt,1.0
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.1.1.3,US5,Agricole,1.0
+HdF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US6.1,Agricole,1.0
+HdF,D1_ocs_artif_reg_enaf,c_chantiers_carrieres_infra,CS1.1.1.1,US4.3,Forêt,1.0
+HdF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.1.1,US5,Habitat,8429.5
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.2.1,US1.1,Infrastructure,8160.5
+HdF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.2.1,US1.1,Activité,6956.7
+HdF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.1.1,US1.2,Activité,6754.2
+HdF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.2.1,US1.1,Habitat,5439.5
+HdF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.1.1,US1.2,Habitat,4092.9
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US1.2,Infrastructure,3230.1
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.2.1,US1.1,Infrastructure,3204.0
+HdF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.1.1,US3,Activité,2305.4
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.2.1,US1.1,Habitat,1961.8
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US6.3,Infrastructure,1498.2
+HdF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.2.1,US1.1,Urbanisé autre,1412.2
+HdF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.1.1,US6.3,Habitat,1338.0
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US4.1.1,Infrastructure,1268.8
+HdF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.2.1,US6.3,Activité,1231.3
+HdF,D2_ocs_non_artif_reg_urbain,e_residu,CS1.2.2,US6.3,Activité,1126.8
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US1.2,Infrastructure,869.5
+HdF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.2.1,US6.3,Urbanisé autre,802.2
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US1.2,Habitat,744.9
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.2.1,US1.1,Activité,736.9
+HdF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.2,US1.2,Activité,726.5
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US5,Habitat,693.4
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.2.1,US6.3,Infrastructure,662.8
+HdF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.1.1,US6.3,Activité,581.8
+HdF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.1.1,US2,Activité,495.5
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US4.1.2,Infrastructure,480.7
+HdF,D2_ocs_non_artif_reg_urbain,e_residu,CS1.2.2,US3,Activité,409.7
+HdF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.1.1,US5,Activité,404.8
+HdF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.1.1,US1.2,Urbanisé autre,392.4
+HdF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.1.1,US3,Habitat,377.3
+HdF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.2,US6.3,Activité,373.5
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US1.2,Activité,370.7
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.2.1,US1.1,Urbanisé autre,336.3
+HdF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.2.1,US6.3,Habitat,329.5
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US6.3,Infrastructure,290.8
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US3,Infrastructure,268.2
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US6.3,Infrastructure,261.7
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS1.2.2,US4.3,Activité,237.6
+HdF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS1.2.2,US6.3,Habitat,233.2
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US6.3,Habitat,230.8
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US4.1.1,Infrastructure,228.2
+HdF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.1.3,US5,Habitat,223.8
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US3,Activité,215.5
+HdF,D2_ocs_non_artif_reg_urbain,e_residu,CS1.2.2,US2,Activité,183.8
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US4.1.2,Infrastructure,157.3
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US4.1.1,Infrastructure,155.7
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS1.1.2.1,US1.3,Activité,151.2
+HdF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.1.1,US5,Urbanisé autre,146.7
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US5,Infrastructure,141.6
+HdF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.2,US2,Activité,138.8
+HdF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.2,US6.3,Urbanisé autre,134.8
+HdF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.1.3,US1.2,Activité,133.7
+HdF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.2,US3,Activité,126.2
+HdF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.1.1,US6.3,Urbanisé autre,123.7
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US5,Infrastructure,117.5
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.2.1,US6.3,Infrastructure,115.3
+HdF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.1.2,US1.2,Activité,111.4
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US6.3,Activité,98.8
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS1.2.2,US4.1.4,Infrastructure,98.4
+HdF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.1.2,US5,Habitat,93.4
+HdF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.1.3,US3,Activité,91.7
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.2.1,US6.3,Urbanisé autre,84.1
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US2,Infrastructure,83.8
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US3,Infrastructure,75.7
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US5,Activité,72.9
+HdF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.1.1,US3,Urbanisé autre,72.5
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.2.1,US1.3,Activité,72.5
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.2.1,US6.3,Habitat,70.3
+HdF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS1.2.2,US5,Habitat,69.4
+HdF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.1.2,US3,Activité,62.7
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US2,Activité,61.8
+HdF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.1.3,US1.2,Habitat,59.5
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US3,Habitat,58.5
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS1.2.1,US6.3,Infrastructure,57.3
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US1.2,Infrastructure,56.7
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.2.1,US6.3,Activité,54.1
+HdF,D2_ocs_non_artif_reg_urbain,e_residu,CS1.2.1,US6.3,Activité,50.4
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US1.2,Urbanisé autre,48.4
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.2.1,US1.1,Urbanisé autre,48.4
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.2.2,US4.1.4,Infrastructure,45.9
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS1.2.2,US1.3,Activité,45.7
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US6.3,Infrastructure,45.3
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.2.1,US5,Habitat,42.3
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US4.1.2,Infrastructure,39.1
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS1.2.2,US6.3,Infrastructure,36.1
+HdF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.2,US6.3,Habitat,35.6
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.2.2,US6.3,Activité,32.2
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.2.2,US6.3,Habitat,31.0
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.1.2.1,US1.1,Activité,29.3
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.2.1,US3,Activité,27.3
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US4.1.1,Infrastructure,27.0
+HdF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.2,US5,Habitat,26.5
+HdF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS1.2.2,US3,Habitat,26.0
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US4.1.3,Activité,25.5
+HdF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.1.1,US2,Urbanisé autre,23.3
+HdF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.1.3,US6.3,Habitat,21.7
+HdF,D2_ocs_non_artif_reg_urbain,e_residu,CS1.2.2,US6.3,Urbanisé autre,21.7
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US6.3,Activité,21.2
+HdF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.1.1,US1.1,Habitat,20.7
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US4.1.1,Activité,20.5
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS1.1.2.1,US1.3,Urbanisé autre,19.9
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.2.2,US6.3,Infrastructure,19.6
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS1.2.2,US4.1.4,Activité,19.0
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US2,Infrastructure,18.8
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.2,US1.2,Infrastructure,18.5
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US3,Infrastructure,18.1
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.3,US5,Habitat,17.3
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.3,US1.2,Infrastructure,16.8
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.1.2.1,US3,Activité,16.6
+HdF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.1.1,US1.1,Activité,15.3
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS1.2.2,US4.1.1,Infrastructure,15.3
+HdF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.1.1,US235,Activité,15.2
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US6.3,Urbanisé autre,13.9
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS1.2.2,US1.3,Urbanisé autre,13.9
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.3,US1.2,Infrastructure,13.8
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US1.1,Infrastructure,13.7
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US4.3,Infrastructure,13.7
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US4.1.2,Infrastructure,13.4
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US1.3,Activité,13.4
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US5,Urbanisé autre,13.3
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US1.1,Infrastructure,12.4
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US1.3,Activité,12.1
+HdF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.1.1,US2,Habitat,12.1
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US1.2,Activité,11.6
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.3,US1.2,Habitat,11.2
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US1.2,Urbanisé autre,11.2
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US3,Urbanisé autre,11.0
+HdF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.1.2,US1.2,Habitat,10.8
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.2.1,US6.3,Urbanisé autre,10.7
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US6.3,Habitat,10.3
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US4.1.1,Habitat,10.2
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.2,US1.2,Infrastructure,10.0
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.1.1.2,US3,Activité,9.9
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US1.2,Infrastructure,9.8
+HdF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.1.3,US3,Habitat,9.2
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.2.2,US3,Activité,9.1
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.3,US4.1.1,Infrastructure,9.0
+HdF,D2_ocs_non_artif_reg_urbain,e_residu,CS1.2.2,US5,Activité,8.6
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.2.1,US4.3,Activité,8.5
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS1.1.2.1,US1.3,Infrastructure,8.4
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US1.1,Habitat,8.3
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US4.3,Activité,8.2
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US2,Activité,8.1
+HdF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.2,US2,Urbanisé autre,8.0
+HdF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.1.3,US6.3,Activité,7.9
+HdF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.1.3,US5,Urbanisé autre,7.6
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US4.1.1,Activité,7.6
+HdF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.1.3,US5,Activité,7.4
+HdF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.2,US3,Urbanisé autre,7.4
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.3,US1.2,Activité,7.4
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.2.2,US4.1.4,Activité,7.2
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US4.1.1,Activité,7.0
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.3,US1.1,Infrastructure,6.8
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS1.2.2,US4.3,Infrastructure,6.8
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US3,Activité,6.6
+HdF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.2,US1.2,Urbanisé autre,6.4
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.2,US5,Habitat,6.2
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.1.1.2,US3,Habitat,6.1
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US4.3,Activité,5.9
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US4.1.2,Activité,5.8
+HdF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.2,US1.1,Activité,5.7
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.1.1.2,US1.1,Activité,5.7
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.1.2.1,US1.1,Urbanisé autre,5.7
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US4.1.1,Habitat,5.7
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.3,US3,Activité,5.6
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.3,US1.1,Infrastructure,5.5
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US1.3,Infrastructure,5.2
+HdF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.2,US1.2,Habitat,5.2
+HdF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.1.2,US5,Activité,4.9
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.3,US1.1,Habitat,4.8
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US2,Infrastructure,4.8
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.2.1,US1.3,Infrastructure,4.8
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.2.1,US1.3,Urbanisé autre,4.6
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US2,Urbanisé autre,4.5
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.2,US1.2,Habitat,4.5
+HdF,D2_ocs_non_artif_reg_urbain,e_residu,CS1.2.1,US6.3,Urbanisé autre,4.5
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.1.2.1,US1.3,Infrastructure,4.4
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.1.2.1,US2,Activité,4.4
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.2.1,US3,Habitat,4.4
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS1.2.2,US3,Infrastructure,4.4
+HdF,D2_ocs_non_artif_reg_urbain,e_residu,CS1.2.2,US1.1,Activité,4.4
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US5,Urbanisé autre,4.2
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US4.1.1,Urbanisé autre,4.1
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.2.2,US4.3,Activité,4.0
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.2,US1.2,Activité,3.9
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.1.1.2,US4.1.1,Infrastructure,3.8
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.2,US3,Activité,3.8
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US6.3,Urbanisé autre,3.8
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.2.1,US1.3,Activité,3.7
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.2.1,US1.3,Infrastructure,3.7
+HdF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.1.2,US5,Urbanisé autre,3.6
+HdF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.2,US5,Urbanisé autre,3.6
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.3,US5,Infrastructure,3.6
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US6.3,Urbanisé autre,3.6
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US1.1,Activité,3.5
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS1.2.2,US2,Infrastructure,3.5
+HdF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.1.3,US1.2,Urbanisé autre,3.4
+HdF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.1.3,US2,Activité,3.4
+HdF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.2.1,US1.4,Activité,3.4
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.3,US6.3,Infrastructure,3.4
+HdF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.1.1,US1.1,Urbanisé autre,3.3
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US4.1.2,Activité,3.3
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US4.3,Infrastructure,3.2
+HdF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.3,US1.1,Habitat,3.2
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.1.2.1,US1.1,Habitat,3.1
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.1.2.1,US1.3,Activité,3.1
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.2.2,US6.3,Urbanisé autre,3.1
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.3,US3,Infrastructure,3.1
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.2.2,US2,Activité,2.9
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US6.3,Urbanisé autre,2.9
+HdF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.1.2,US1.2,Urbanisé autre,2.8
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.2.2,US5,Habitat,2.8
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS1.2.2,US6.3,Urbanisé autre,2.8
+HdF,D2_ocs_non_artif_reg_urbain,e_residu,CS1.2.2,US1.4,Activité,2.8
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.2.2,US4.1.4,Habitat,2.7
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US2,Habitat,2.7
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.3,US6.3,Habitat,2.6
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.2.1,US5,Activité,2.6
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US3,Urbanisé autre,2.4
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US4.1.2,Habitat,2.4
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US1.2,Habitat,2.2
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.2.1,US6.3,Infrastructure,2.1
+HdF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.3,US1.1,Activité,2.0
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US1.3,Infrastructure,2.0
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.3,US5,Activité,2.0
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US2,Infrastructure,2.0
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US3,Infrastructure,2.0
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US235,Infrastructure,2.0
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US4.2,Activité,2.0
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US235,Activité,1.9
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.2,US5,Infrastructure,1.9
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US1.1,Infrastructure,1.9
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.1.2.1,US4.3,Activité,1.8
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.2.1,US6.3,Activité,1.8
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US4.1.1,Urbanisé autre,1.8
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.3,US3,Infrastructure,1.8
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.3,US3,Habitat,1.7
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.3,US6.3,Infrastructure,1.7
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.2,US5,Activité,1.6
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US4.1.2,Activité,1.6
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS1.2.1,US6.3,Urbanisé autre,1.6
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS1.2.2,US4.1.4,Urbanisé autre,1.6
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.3,US5,Infrastructure,1.6
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.2,US6.3,Infrastructure,1.5
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US4.3,Urbanisé autre,1.5
+HdF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.1.2,US2,Activité,1.4
+HdF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.2,US1.1,Urbanisé autre,1.4
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.1.1.2,US4.3,Activité,1.4
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.2.2,US3,Habitat,1.4
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US5,Habitat,1.4
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.1.2.1,US1.1,Infrastructure,1.3
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.2,US5,Infrastructure,1.3
+HdF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.1.3,US6.3,Urbanisé autre,1.2
+HdF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.2,US5,Activité,1.2
+HdF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.3,US1.1,Urbanisé autre,1.2
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US1.3,Activité,1.2
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US4.1.1,Activité,1.2
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.2.1,US5,Urbanisé autre,1.2
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US4.3,Habitat,1.2
+HdF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.1.2,US6.3,Activité,1.1
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.1.1.2,US4.1.1,Activité,1.1
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US4.1.2,Habitat,1.1
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.3,US6.3,Activité,1.1
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.2.1,US2,Activité,1.1
+HdF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS1.2.2,US4.1.4,Habitat,1.1
+HdF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.1.2,US6.3,Habitat,1.1
+HdF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.1.2.1,US3,Habitat,1.0
+IDF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US3,Espaces agricoles,1577.5
+IDF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US5,Espaces agricoles,1328.1
+IDF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US3,Milieux semi-naturels,791.9
+IDF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US5,Bois ou forêts,574.2
+IDF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US4.3,Milieux semi-naturels,503.1
+IDF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US3,Bois ou forêts,458.1
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US5,Bois ou forêts,408.7
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US5,Espaces agricoles,404.5
+IDF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US5,Milieux semi-naturels,352.7
+IDF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.1.1,US1.1,Espaces agricoles,303.7
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.2,US4.1.1,Espaces agricoles,242.4
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.2,US4.1.1,Bois ou forêts,184.4
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US3,Bois ou forêts,160.0
+IDF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US2,Milieux semi-naturels,148.9
+IDF,D1_ocs_artif_reg_enaf,c_chantiers_carrieres_infra,CS1.1.2.1,US6.1,Espaces agricoles,141.2
+IDF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US3,Eau,141.1
+IDF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US235,Espaces agricoles,125.9
+IDF,D1_ocs_artif_reg_enaf,c_chantiers_carrieres_infra,CS1.1.1.2,US4.1.1,Bois ou forêts,105.2
+IDF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US4.1.3,Espaces agricoles,104.7
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US3,Espaces agricoles,91.4
+IDF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US2,Espaces agricoles,86.3
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US5,Milieux semi-naturels,72.5
+IDF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US4.1.1,Espaces agricoles,70.4
+IDF,D1_ocs_artif_reg_enaf,e_residu,CS1.1.2.1,US1.1,Espaces agricoles,69.9
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US3,Eau,68.0
+IDF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.1.1,US5,Bois ou forêts,65.5
+IDF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US235,Milieux semi-naturels,65.2
+IDF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US4.3,Bois ou forêts,65.0
+IDF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.1.1,US3,Espaces agricoles,61.8
+IDF,D1_ocs_artif_reg_enaf,c_chantiers_carrieres_infra,CS1.1.2.1,US6.1,Milieux semi-naturels,59.3
+IDF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US4.3,Espaces agricoles,56.7
+IDF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US4.1.1,Bois ou forêts,55.8
+IDF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US235,Bois ou forêts,51.5
+IDF,D1_ocs_artif_reg_enaf,e_residu,CS1.1.2.1,US3,Espaces agricoles,50.6
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.2,US4.1.1,Milieux semi-naturels,43.1
+IDF,D1_ocs_artif_reg_enaf,e_residu,CS1.1.1.2,US3,Eau,41.1
+IDF,D1_ocs_artif_reg_enaf,c_chantiers_carrieres_infra,CS1.1.1.2,US4.1.1,Espaces agricoles,40.6
+IDF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US4.1.1,Milieux semi-naturels,40.4
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.1.1.1,US5,Bois ou forêts,40.2
+IDF,D1_ocs_artif_reg_enaf,c_chantiers_carrieres_infra,CS1.1.1.2,US4.1.1,Eau,37.7
+IDF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US4.1.2,Espaces agricoles,37.4
+IDF,D1_ocs_artif_reg_enaf,e_residu,CS1.1.2.1,US3,Bois ou forêts,37.1
+IDF,D1_ocs_artif_reg_enaf,e_residu,CS1.1.2.1,US1.1,Milieux semi-naturels,35.4
+IDF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.1.1,US5,Espaces agricoles,35.2
+IDF,D1_ocs_artif_reg_enaf,c_chantiers_carrieres_infra,CS1.1.1.2,US4.1.1,Milieux semi-naturels,34.6
+IDF,D1_ocs_artif_reg_enaf,e_residu,CS1.1.2.1,US3,Milieux semi-naturels,33.4
+IDF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US5,Eau,33.0
+IDF,D1_ocs_artif_reg_enaf,e_residu,CS1.1.2.1,US2,Milieux semi-naturels,32.7
+IDF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US6.1,Milieux semi-naturels,32.0
+IDF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US2,Bois ou forêts,31.5
+IDF,D1_ocs_artif_reg_enaf,e_residu,CS1.1.1.2,US1.4,Espaces agricoles,29.9
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US3,Milieux semi-naturels,28.1
+IDF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US4.1.2,Bois ou forêts,27.8
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.1.1.1,US5,Espaces agricoles,27.0
+IDF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US6.1,Espaces agricoles,26.0
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US4.1.1,Espaces agricoles,25.3
+IDF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US4.1.2,Milieux semi-naturels,24.5
+IDF,D1_ocs_artif_reg_enaf,e_residu,CS1.1.1.2,US1.1,Espaces agricoles,24.1
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.1.1.1,US3,Bois ou forêts,24.0
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US5,Eau,24.0
+IDF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US2,Eau,23.5
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US3,Espaces agricoles,22.7
+IDF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US4.3,Eau,22.4
+IDF,D1_ocs_artif_reg_enaf,c_chantiers_carrieres_infra,CS1.1.1.2,US4.3,Eau,22.2
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US1.1,Espaces agricoles,22.0
+IDF,D1_ocs_artif_reg_enaf,e_residu,CS1.1.1.2,US3,Espaces agricoles,21.4
+IDF,D1_ocs_artif_reg_enaf,e_residu,CS1.1.1.2,US2,Eau,20.5
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US235,Bois ou forêts,20.0
+IDF,D1_ocs_artif_reg_enaf,c_chantiers_carrieres_infra,CS1.1.2.1,US4.3,Milieux semi-naturels,19.0
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.1,US5,Bois ou forêts,18.8
+IDF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US4.1.3,Milieux semi-naturels,18.3
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.2,US3,Bois ou forêts,18.2
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US3,Bois ou forêts,18.0
+IDF,D1_ocs_artif_reg_enaf,e_residu,CS1.1.1.2,US3,Bois ou forêts,17.9
+IDF,D1_ocs_artif_reg_enaf,e_residu,CS1.1.1.2,US3,Milieux semi-naturels,17.3
+IDF,D1_ocs_artif_reg_enaf,e_residu,CS1.1.2.1,US2,Espaces agricoles,16.8
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.2,US4.1.1,Eau,16.4
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US4.3,Bois ou forêts,16.4
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.2,US3,Espaces agricoles,16.2
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.1.1.1,US3,Espaces agricoles,16.0
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.1.1.1,US5,Milieux semi-naturels,16.0
+IDF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.1.1,US3,Bois ou forêts,15.6
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US4.3,Espaces agricoles,15.5
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.2.2,US3,Eau,14.1
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US4.1.2,Espaces agricoles,13.6
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US235,Espaces agricoles,13.2
+IDF,D1_ocs_artif_reg_enaf,c_chantiers_carrieres_infra,CS1.1.2.1,US4.3,Eau,13.1
+IDF,D1_ocs_artif_reg_enaf,c_chantiers_carrieres_infra,CS1.1.2.1,US4.1.2,Milieux semi-naturels,13.0
+IDF,D1_ocs_artif_reg_enaf,c_chantiers_carrieres_infra,CS1.1.2.1,US6.1,Bois ou forêts,12.7
+IDF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.1.1,US5,Milieux semi-naturels,12.5
+IDF,D1_ocs_artif_reg_enaf,e_residu,CS1.1.2.1,US1.1,Bois ou forêts,11.7
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.1,US5,Espaces agricoles,11.6
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US2,Espaces agricoles,11.5
+IDF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US4.1.1,Eau,10.6
+IDF,D1_ocs_artif_reg_enaf,c_chantiers_carrieres_infra,CS1.1.2.1,US4.1.2,Bois ou forêts,10.6
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.1,US1.1,Espaces agricoles,10.0
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.1.1.1,US3,Milieux semi-naturels,9.9
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US4.1.2,Bois ou forêts,9.8
+IDF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US235,Eau,9.3
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US6.1,Espaces agricoles,9.0
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US4.1.1,Bois ou forêts,9.0
+IDF,D1_ocs_artif_reg_enaf,c_chantiers_carrieres_infra,CS1.1.2.1,US4.1.1,Espaces agricoles,8.4
+IDF,D1_ocs_artif_reg_enaf,e_residu,CS1.1.2.1,US2,Bois ou forêts,8.1
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US2,Bois ou forêts,7.9
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.2,US3,Eau,7.7
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.2.2,US6.3,Eau,7.5
+IDF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.1.2,US5,Bois ou forêts,7.3
+IDF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.1.2,US5,Espaces agricoles,7.3
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.1,US3,Bois ou forêts,7.2
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US1.1,Espaces agricoles,7.0
+IDF,D1_ocs_artif_reg_enaf,c_chantiers_carrieres_infra,CS1.1.1.2,US4.2,Eau,6.8
+IDF,D1_ocs_artif_reg_enaf,e_residu,CS1.1.1.2,US2,Milieux semi-naturels,6.8
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US2,Milieux semi-naturels,6.6
+IDF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.1.1,US1.1,Bois ou forêts,6.6
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.2,US3,Milieux semi-naturels,6.5
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US2,Espaces agricoles,6.1
+IDF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.1.1,US1.1,Milieux semi-naturels,6.1
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US3,Milieux semi-naturels,6.0
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.2.2,US5,Eau,5.9
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US4.1.2,Bois ou forêts,5.8
+IDF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.1.1,US235,Bois ou forêts,5.8
+IDF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.2.1,US5,Bois ou forêts,5.8
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US6.1,Bois ou forêts,5.7
+IDF,D1_ocs_artif_reg_enaf,c_chantiers_carrieres_infra,CS1.1.2.1,US4.1.2,Espaces agricoles,5.7
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US4.3,Milieux semi-naturels,5.6
+IDF,D1_ocs_artif_reg_enaf,c_chantiers_carrieres_infra,CS1.1.2.1,US4.1.1,Milieux semi-naturels,5.6
+IDF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US4.2,Milieux semi-naturels,5.5
+IDF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.2.1,US5,Espaces agricoles,5.5
+IDF,D1_ocs_artif_reg_enaf,e_residu,CS1.1.2.1,US1.1,Eau,5.3
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.2,US1.1,Espaces agricoles,5.2
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US2,Bois ou forêts,5.1
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US6.1,Milieux semi-naturels,5.0
+IDF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US4.2,Bois ou forêts,4.9
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.1,US3,Espaces agricoles,4.9
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US4.1.1,Milieux semi-naturels,4.9
+IDF,D1_ocs_artif_reg_enaf,e_residu,CS1.1.2.1,US1.2,Bois ou forêts,4.9
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US4.1.2,Milieux semi-naturels,4.8
+IDF,D1_ocs_artif_reg_enaf,e_residu,CS1.1.1.2,US2,Espaces agricoles,4.8
+IDF,D1_ocs_artif_reg_enaf,e_residu,CS1.1.2.1,US2,Eau,4.7
+IDF,D1_ocs_artif_reg_enaf,e_residu,CS1.1.2.1,US3,Eau,4.7
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US235,Eau,4.6
+IDF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.1.1,US5,Eau,4.6
+IDF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.2.1,US235,Milieux semi-naturels,4.6
+IDF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.1.1,US3,Milieux semi-naturels,4.5
+IDF,D1_ocs_artif_reg_enaf,e_residu,CS1.1.1.2,US1.1,Eau,4.4
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US2,Eau,4.3
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.2,US2,Bois ou forêts,4.2
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US235,Milieux semi-naturels,4.2
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US4.1.2,Milieux semi-naturels,4.2
+IDF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.1.1,US2,Espaces agricoles,4.0
+IDF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.1.1,US235,Espaces agricoles,4.0
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.1,US5,Milieux semi-naturels,3.9
+IDF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.1.2,US235,Eau,3.9
+IDF,D1_ocs_artif_reg_enaf,c_chantiers_carrieres_infra,CS1.1.2.1,US6.1,Eau,3.8
+IDF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.1.1,US3,Eau,3.8
+IDF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.2.1,US235,Bois ou forêts,3.8
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.2,US2,Milieux semi-naturels,3.7
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.1,US3,Eau,3.6
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.2,US2,Espaces agricoles,3.6
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US1.1,Bois ou forêts,3.6
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US2,Milieux semi-naturels,3.6
+IDF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.2.1,US235,Espaces agricoles,3.6
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.2,US5,Espaces agricoles,3.5
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.1,US5,Eau,3.4
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.2,US5,Bois ou forêts,3.4
+IDF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.1.2,US5,Milieux semi-naturels,3.4
+IDF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.2.1,US5,Milieux semi-naturels,3.4
+IDF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US6.1,Bois ou forêts,3.3
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US6.3,Espaces agricoles,3.3
+IDF,D1_ocs_artif_reg_enaf,c_chantiers_carrieres_infra,CS1.1.1.2,US4.3,Milieux semi-naturels,3.1
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US4.3,Eau,2.9
+IDF,D1_ocs_artif_reg_enaf,e_residu,CS1.1.1.2,US1.1,Milieux semi-naturels,2.8
+IDF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US6.2,Milieux semi-naturels,2.7
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.2,US235,Bois ou forêts,2.7
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.1.1.1,US235,Bois ou forêts,2.7
+IDF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.1.2,US235,Bois ou forêts,2.7
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US4.1.1,Eau,2.5
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US4.1.3,Espaces agricoles,2.5
+IDF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US4.1.3,Eau,2.4
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.2,US2,Eau,2.4
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.1.1.1,US2,Milieux semi-naturels,2.4
+IDF,D1_ocs_artif_reg_enaf,c_chantiers_carrieres_infra,CS1.1.2.1,US4.3,Espaces agricoles,2.4
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US4.1.2,Espaces agricoles,2.3
+IDF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.1.1,US6.2,Espaces agricoles,2.3
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US3,Eau,2.2
+IDF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US4.1.3,Bois ou forêts,2.1
+IDF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US4.2,Eau,2.1
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.1,US3,Milieux semi-naturels,2.1
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.2,US235,Espaces agricoles,2.1
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.2,US4.3,Milieux semi-naturels,2.1
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US235,Espaces agricoles,2.1
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US5,Espaces agricoles,2.1
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.1.1.1,US235,Milieux semi-naturels,2.1
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US235,Bois ou forêts,2.0
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US4.3,Milieux semi-naturels,2.0
+IDF,D1_ocs_artif_reg_enaf,c_chantiers_carrieres_infra,CS1.1.1.2,US4.1.2,Milieux semi-naturels,2.0
+IDF,D1_ocs_artif_reg_enaf,c_chantiers_carrieres_infra,CS1.1.1.2,US4.1.3,Espaces agricoles,2.0
+IDF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.1.2,US235,Milieux semi-naturels,2.0
+IDF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.1.2,US5,Eau,2.0
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US1.1,Milieux semi-naturels,1.9
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US5,Bois ou forêts,1.9
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.1.1.1,US2,Bois ou forêts,1.9
+IDF,D1_ocs_artif_reg_enaf,c_chantiers_carrieres_infra,CS1.1.1.2,US6.1,Espaces agricoles,1.9
+IDF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.1.2,US235,Espaces agricoles,1.9
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.1,US235,Bois ou forêts,1.8
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.2,US4.1.3,Espaces agricoles,1.8
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US4.1.1,Espaces agricoles,1.8
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US4.2,Bois ou forêts,1.8
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US2,Eau,1.7
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.1.1.1,US3,Eau,1.7
+IDF,D1_ocs_artif_reg_enaf,c_chantiers_carrieres_infra,CS1.1.1.2,US1.3,Milieux semi-naturels,1.7
+IDF,D1_ocs_artif_reg_enaf,e_residu,CS1.1.1.2,US2,Bois ou forêts,1.7
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.2,US1.4,Bois ou forêts,1.6
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.2.2,US2,Eau,1.6
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.2,US235,Milieux semi-naturels,1.5
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.2.2,US235,Eau,1.5
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US1.1,Milieux semi-naturels,1.5
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US6.1,Espaces agricoles,1.5
+IDF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.1.1,US235,Milieux semi-naturels,1.5
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.2,US4.3,Bois ou forêts,1.4
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.2,US5,Milieux semi-naturels,1.4
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US4.3,Espaces agricoles,1.4
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.1.1.1,US4.1.1,Bois ou forêts,1.4
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.1.1.1,US6.3,Bois ou forêts,1.4
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.1.1.1,US6.3,Milieux semi-naturels,1.3
+IDF,D1_ocs_artif_reg_enaf,c_chantiers_carrieres_infra,CS1.1.1.1,US6.1,Espaces agricoles,1.3
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US235,Milieux semi-naturels,1.2
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US4.2,Espaces agricoles,1.2
+IDF,D1_ocs_artif_reg_enaf,e_residu,CS1.1.1.2,US1.4,Milieux semi-naturels,1.2
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.1,US235,Espaces agricoles,1.1
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.2.1,US6.1,Eau,1.1
+IDF,D1_ocs_artif_reg_enaf,a_herbace_espaces_verts,CS2.2.1,US4.2,Espaces agricoles,1.0
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.1,US1.1,Milieux semi-naturels,1.0
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.2,US1.2,Bois ou forêts,1.0
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.1.1.2,US4.3,Espaces agricoles,1.0
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS1.2.2,US4.3,Eau,1.0
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.1.1.1,US5,Eau,1.0
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US4.1.3,Bois ou forêts,1.0
+IDF,D1_ocs_artif_reg_enaf,b_seuil_generalisation,CS2.2.1,US6.1,Bois ou forêts,1.0
+IDF,D1_ocs_artif_reg_enaf,c_chantiers_carrieres_infra,CS1.1.1.1,US4.3,Bois ou forêts,1.0
+IDF,D1_ocs_artif_reg_enaf,d_jardins_bati_diffus,CS1.1.1.1,US2,Bois ou forêts,1.0
+IDF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.2.1,US1.1,Espaces verts ou non bâtis,6800.0
+IDF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.1.1,US1.2,Espaces verts ou non bâtis,5726.0
+IDF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.1.1,US3,Espaces verts ou non bâtis,5550.3
+IDF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.1.1,US5,Espaces verts ou non bâtis,4242.7
+IDF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.1.1,US5,Habitat pavillonnaire,2932.6
+IDF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.1.1,US1.2,Espaces verts ou non bâtis,1788.8
+IDF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.2.1,US1.1,Espaces verts ou non bâtis,1377.0
+IDF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.2.1,US6.3,Espaces verts ou non bâtis,1326.9
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS1.1.2.1,US1.3,Gestion des ressources,1313.8
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US4.1.1,Espaces verts ou non bâtis,1250.9
+IDF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.1.1,US5,Espaces verts ou non bâtis,961.3
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US1.2,Transports,813.3
+IDF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.2.1,US1.1,Habitat pavillonnaire,705.0
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.2.1,US1.1,Transports,642.2
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.2.1,US1.1,Espaces verts ou non bâtis,614.9
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US1.2,Espaces verts ou non bâtis,596.9
+IDF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.1.1,US6.3,Espaces verts ou non bâtis,579.0
+IDF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.1.1,US1.2,Habitat pavillonnaire,570.5
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US5,Habitat pavillonnaire,501.6
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS2.1.1.1,US3,Équipements,466.6
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.2.1,US1.1,Habitat pavillonnaire,457.4
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS2.2.1,US1.1,Activités,439.7
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS2.1.1.1,US5,Habitat collectif,425.8
+IDF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.1.1,US3,Espaces verts ou non bâtis,419.2
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.2.1,US1.1,Gestion des ressources,401.6
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US3,Transports,356.9
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US1.2,Habitat pavillonnaire,342.8
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS2.2.1,US1.1,Équipements,339.7
+IDF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.2,US6.3,Espaces verts ou non bâtis,315.6
+IDF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.1.1,US235,Espaces verts ou non bâtis,312.6
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US4.1.2,Transports,278.2
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS2.1.1.1,US1.2,Équipements,264.5
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.2.1,US1.3,Gestion des ressources,263.9
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.2.1,US1.1,Transports,260.0
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US5,Espaces verts ou non bâtis,257.0
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US1.2,Gestion des ressources,241.7
+IDF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.1.1,US2,Espaces verts ou non bâtis,217.6
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US5,Transports,215.8
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US1.2,Transports,214.8
+IDF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.1.1,US6.3,Espaces verts ou non bâtis,210.2
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US3,Espaces verts ou non bâtis,206.4
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US4.1.1,Espaces verts ou non bâtis,197.0
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.2.1,US1.1,Chantiers,193.2
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US5,Transports,190.5
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS2.1.1.1,US3,Activités,189.2
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US3,Transports,172.6
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS2.1.1.1,US1.2,Activités,165.1
+IDF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.1.1,US3,Habitat pavillonnaire,159.3
+IDF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.2.1,US6.3,Espaces verts ou non bâtis,158.9
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US4.1.2,Transports,156.7
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US6.3,Transports,143.6
+IDF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.1.1,US235,Espaces verts ou non bâtis,136.0
+IDF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.2,US3,Espaces verts ou non bâtis,125.3
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS2.1.1.1,US3,Habitat collectif,115.2
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.2.1,US6.3,Chantiers,110.9
+IDF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.2,US1.2,Espaces verts ou non bâtis,106.5
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US4.3,Espaces verts ou non bâtis,93.1
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US5,Habitat collectif,91.6
+IDF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.1.3,US3,Espaces verts ou non bâtis,90.7
+IDF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.1.3,US1.2,Espaces verts ou non bâtis,89.0
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.2.2,US6.3,Espaces verts ou non bâtis,88.9
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS2.2.1,US6.3,Équipements,88.9
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US3,Équipements,88.2
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS1.1.2.1,US1.3,Activités,87.0
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US3,Habitat pavillonnaire,86.6
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.2.1,US1.1,Activités,86.3
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS2.1.1.1,US2,Activités,81.8
+IDF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS1.2.2,US6.3,Espaces verts ou non bâtis,79.6
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US6.3,Espaces verts ou non bâtis,76.6
+IDF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.1.1,US235,Habitat pavillonnaire,73.0
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US1.2,Activités,72.5
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US4.1.1,Transports,67.6
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS2.2.1,US6.3,Activités,66.1
+IDF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.1.1,US6.3,Habitat pavillonnaire,61.3
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS2.1.1.1,US235,Activités,61.3
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS2.1.1.1,US5,Équipements,59.0
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US3,Activités,58.1
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.2.1,US6.3,Gestion des ressources,57.3
+IDF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.1.2,US1.2,Espaces verts ou non bâtis,55.2
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS2.1.1.1,US1.2,Habitat collectif,54.7
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.2.1,US3,Espaces verts ou non bâtis,54.1
+IDF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.2.1,US6.3,Habitat pavillonnaire,54.1
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS2.1.1.1,US5,Activités,51.8
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US3,Habitat collectif,49.9
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.2.1,US6.3,Espaces verts ou non bâtis,48.9
+IDF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.1.3,US5,Habitat pavillonnaire,48.7
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US4.1.2,Espaces verts ou non bâtis,48.6
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US2,Transports,47.6
+IDF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.1.2,US3,Espaces verts ou non bâtis,45.5
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US1.2,Équipements,45.2
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS2.1.2,US6.3,Activités,44.7
+IDF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS1.2.2,US3,Espaces verts ou non bâtis,44.1
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.2.1,US6.3,Transports,42.8
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS2.1.1.1,US235,Équipements,41.3
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US1.2,Gestion des ressources,41.1
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US6.3,Transports,41.0
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.2.1,US1.1,Équipements,39.3
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.2.1,US1.1,Gestion des ressources,38.5
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS1.2.2,US6.3,Gestion des ressources,38.4
+IDF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.1.3,US5,Espaces verts ou non bâtis,38.1
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US235,Transports,36.7
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.2.1,US1.3,Espaces verts ou non bâtis,36.4
+IDF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.1.1,US1.1,Espaces verts ou non bâtis,35.5
+IDF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.2,US6.3,Espaces verts ou non bâtis,34.8
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS1.2.2,US4.3,Gestion des ressources,34.7
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US3,Gestion des ressources,33.4
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US6.3,Habitat pavillonnaire,31.1
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS2.1.1.1,US6.3,Activités,30.2
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.2.1,US6.3,Transports,29.6
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US5,Équipements,28.9
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.2.1,US5,Espaces verts ou non bâtis,28.9
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.2.1,US6.3,Habitat pavillonnaire,28.9
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US6.3,Gestion des ressources,28.1
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US1.2,Habitat collectif,27.6
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS1.2.1,US6.3,Gestion des ressources,27.4
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.2.2,US3,Espaces verts ou non bâtis,27.2
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US6.3,Espaces verts ou non bâtis,26.7
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS2.1.2,US6.3,Équipements,26.7
+IDF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.2,US235,Espaces verts ou non bâtis,26.5
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US6.3,Transports,26.2
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US2,Activités,25.5
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS2.1.1.1,US2,Équipements,25.5
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US4.1.2,Espaces verts ou non bâtis,25.0
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.1.1.2,US3,Espaces verts ou non bâtis,24.4
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS2.1.1.1,US235,Habitat collectif,24.4
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US235,Espaces verts ou non bâtis,23.2
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US5,Activités,23.1
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS1.2.2,US1.3,Gestion des ressources,22.9
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US235,Transports,22.6
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS2.1.2,US3,Équipements,21.8
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS2.1.1.1,US6.3,Équipements,21.1
+IDF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.2,US5,Habitat pavillonnaire,20.5
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US4.1.3,Espaces verts ou non bâtis,20.0
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US2,Transports,19.8
+IDF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.2,US5,Espaces verts ou non bâtis,19.7
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS2.2.1,US1.1,Habitat collectif,19.6
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US4.1.1,Transports,18.7
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US235,Habitat pavillonnaire,18.6
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.3,US1.2,Espaces verts ou non bâtis,18.5
+IDF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS1.2.2,US6.3,Espaces verts ou non bâtis,18.4
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.2.2,US6.3,Habitat pavillonnaire,17.4
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US235,Activités,17.3
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.2,US1.2,Gestion des ressources,17.2
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US6.3,Gestion des ressources,16.7
+IDF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.2,US1.1,Espaces verts ou non bâtis,16.6
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US1.3,Gestion des ressources,16.0
+IDF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.2,US2,Espaces verts ou non bâtis,15.2
+IDF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.1.3,US1.2,Espaces verts ou non bâtis,14.7
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US1.2,Chantiers,14.6
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS1.1.2.1,US1.3,Transports,14.4
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.2.1,US1.3,Activités,14.4
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.2.1,US6.3,Activités,14.3
+IDF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.1.1,US1.1,Espaces verts ou non bâtis,14.3
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US2,Gestion des ressources,14.0
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US4.3,Gestion des ressources,13.7
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US4.1.1,Espaces verts ou non bâtis,13.0
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.2.2,US6.3,Transports,12.8
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS1.2.2,US6.3,Équipements,12.7
+IDF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.1.1,US2,Espaces verts ou non bâtis,12.6
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS2.1.2,US3,Activités,12.6
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US5,Gestion des ressources,12.5
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.3,US1.2,Gestion des ressources,12.4
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US6.3,Transports,12.1
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US2,Espaces verts ou non bâtis,11.9
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.2.1,US1.1,Chantiers,11.3
+IDF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS1.2.2,US6.3,Habitat pavillonnaire,10.7
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.2.1,US1.3,Gestion des ressources,10.6
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US1.3,Gestion des ressources,10.4
+IDF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.1.3,US1.2,Habitat pavillonnaire,10.4
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US1.1,Espaces verts ou non bâtis,10.1
+IDF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.2,US5,Espaces verts ou non bâtis,10.0
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US1.2,Gestion des ressources,10.0
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US3,Transports,9.3
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.2.1,US1.1,Habitat collectif,9.2
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US4.1.3,Espaces verts ou non bâtis,9.2
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.1.2.1,US3,Espaces verts ou non bâtis,9.1
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS1.2.2,US2,Gestion des ressources,9.0
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.3,US1.2,Transports,9.0
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US4.3,Espaces verts ou non bâtis,8.9
+IDF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.2,US6.3,Habitat pavillonnaire,8.9
+IDF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.1.3,US235,Espaces verts ou non bâtis,8.8
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US6.3,Activités,8.7
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.2,US1.2,Espaces verts ou non bâtis,8.7
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US1.2,Chantiers,8.6
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.2.2,US6.3,Activités,8.4
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US3,Chantiers,8.4
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US4.3,Gestion des ressources,8.3
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US235,Habitat collectif,8.2
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS2.1.2,US235,Activités,8.1
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS1.1.2.1,US1.3,Espaces verts ou non bâtis,8.0
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US4.3,Transports,8.0
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US6.3,Habitat pavillonnaire,7.7
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS2.1.1.2,US3,Équipements,7.5
+IDF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.1.3,US6.3,Espaces verts ou non bâtis,7.4
+IDF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS1.2.2,US5,Espaces verts ou non bâtis,7.3
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.3,US1.2,Transports,7.2
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US6.3,Activités,7.2
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US5,Chantiers,7.2
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US1.2,Transports,7.1
+IDF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.1.3,US5,Espaces verts ou non bâtis,7.0
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US235,Équipements,7.0
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US6.3,Chantiers,6.9
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US1.3,Espaces verts ou non bâtis,6.7
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US4.1.1,Transports,6.5
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS2.1.1.3,US5,Habitat collectif,6.4
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.3,US5,Habitat pavillonnaire,6.3
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.2.1,US6.3,Chantiers,6.0
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS1.2.2,US6.3,Transports,6.0
+IDF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.1.1,US1.1,Habitat pavillonnaire,6.0
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US4.1.2,Transports,5.7
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.1.2.1,US3,Équipements,5.6
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US4.1.2,Transports,5.6
+IDF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.2,US1.1,Espaces verts ou non bâtis,5.4
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US4.1.1,Activités,5.3
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS2.1.1.3,US3,Équipements,5.3
+IDF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.1.2,US5,Habitat pavillonnaire,5.2
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US3,Chantiers,5.1
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS2.2.1,US6.3,Habitat collectif,5.1
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US4.1.2,Espaces verts ou non bâtis,5.0
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.2,US1.2,Transports,4.9
+IDF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.1.2,US1.2,Habitat pavillonnaire,4.9
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US3,Gestion des ressources,4.8
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US4.3,Espaces verts ou non bâtis,4.8
+IDF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.1.1,US2,Habitat pavillonnaire,4.8
+IDF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.1.2,US1.2,Espaces verts ou non bâtis,4.8
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US5,Chantiers,4.7
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US6.3,Chantiers,4.7
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US6.3,Gestion des ressources,4.6
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US4.3,Transports,4.6
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US4.1.1,Habitat pavillonnaire,4.6
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.2,US1.3,Gestion des ressources,4.6
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US2,Gestion des ressources,4.6
+IDF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.1.2,US5,Espaces verts ou non bâtis,4.5
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS2.1.1.3,US1.2,Équipements,4.5
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS2.1.2,US1.2,Équipements,4.5
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS2.1.2,US2,Activités,4.5
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US1.2,Espaces verts ou non bâtis,4.4
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS1.2.2,US3,Équipements,4.4
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US4.3,Équipements,4.3
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS2.1.1.3,US5,Équipements,4.3
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US4.1.1,Activités,4.2
+IDF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.2,US235,Espaces verts ou non bâtis,4.2
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.1.2.1,US1.3,Espaces verts ou non bâtis,4.1
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US235,Gestion des ressources,4.1
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.2.2,US1.3,Gestion des ressources,4.0
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US4.1.2,Espaces verts ou non bâtis,4.0
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.3,US1.2,Habitat pavillonnaire,4.0
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS1.2.2,US6.3,Activités,4.0
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.2.2,US6.3,Équipements,3.8
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.2.1,US6.3,Habitat collectif,3.8
+IDF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.2,US1.2,Espaces verts ou non bâtis,3.8
+IDF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.2,US235,Habitat pavillonnaire,3.8
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.1.2.1,US1.1,Équipements,3.7
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US1.1,Transports,3.7
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US3,Espaces verts ou non bâtis,3.7
+IDF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.1.3,US3,Espaces verts ou non bâtis,3.6
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US1.1,Habitat pavillonnaire,3.5
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.3,US5,Espaces verts ou non bâtis,3.5
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS2.1.1.2,US1.2,Équipements,3.5
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US1.3,Gestion des ressources,3.4
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US6.3,Gestion des ressources,3.4
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.2.1,US6.3,Gestion des ressources,3.4
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS1.2.2,US4.3,Espaces verts ou non bâtis,3.4
+IDF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS1.2.2,US3,Espaces verts ou non bâtis,3.4
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS2.1.2,US1.2,Activités,3.4
+IDF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.1.3,US235,Espaces verts ou non bâtis,3.3
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.1.2.1,US1.3,Transports,3.3
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.2.1,US235,Espaces verts ou non bâtis,3.3
+IDF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.2,US3,Espaces verts ou non bâtis,3.3
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.2.2,US6.3,Habitat collectif,3.2
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US4.1.1,Habitat pavillonnaire,3.2
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US6.3,Habitat collectif,3.2
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.2,US4.1.1,Espaces verts ou non bâtis,3.2
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS2.1.2,US1.1,Activités,3.2
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US1.2,Transports,3.0
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US5,Habitat pavillonnaire,3.0
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US5,Gestion des ressources,2.9
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.2,US1.2,Transports,2.9
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.3,US3,Espaces verts ou non bâtis,2.9
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS2.1.1.1,US6.3,Habitat collectif,2.9
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.2.1,US1.3,Espaces verts ou non bâtis,2.8
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.2.1,US6.3,Équipements,2.8
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US4.1.1,Équipements,2.8
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US235,Transports,2.8
+IDF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS1.2.2,US5,Espaces verts ou non bâtis,2.7
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.3,US1.2,Gestion des ressources,2.7
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.2.2,US4.1.4,Espaces verts ou non bâtis,2.6
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US6.3,Équipements,2.6
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.3,US5,Transports,2.6
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US4.1.1,Espaces verts ou non bâtis,2.6
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US4.3,Activités,2.6
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US1.3,Activités,2.6
+IDF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.2,US3,Habitat pavillonnaire,2.6
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS2.1.1.3,US3,Activités,2.6
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US4.1.2,Habitat pavillonnaire,2.5
+IDF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.1.3,US3,Habitat pavillonnaire,2.5
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.2.2,US5,Espaces verts ou non bâtis,2.4
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.2.2,US6.3,Gestion des ressources,2.4
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US3,Transports,2.4
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS1.2.2,US3,Chantiers,2.4
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.1.2.1,US1.1,Activités,2.3
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.2.2,US4.1.4,Transports,2.3
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US235,Activités,2.3
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US3,Activités,2.3
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS1.1.2.1,US1.3,Chantiers,2.3
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US235,Gestion des ressources,2.3
+IDF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS1.2.2,US5,Habitat pavillonnaire,2.3
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS1.2.2,US6.3,Habitat collectif,2.3
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US1.1,Espaces verts ou non bâtis,2.2
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS1.2.2,US4.1.4,Équipements,2.2
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.3,US3,Transports,2.2
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US4.3,Activités,2.2
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US4.1.1,Transports,2.1
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.2.1,US1.3,Transports,2.1
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS1.2.2,US6.3,Chantiers,2.1
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US4.1.3,Activités,2.1
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US5,Transports,2.1
+IDF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.1.3,US235,Habitat pavillonnaire,2.1
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US235,Transports,2.0
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US5,Espaces verts ou non bâtis,2.0
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.2.1,US1.3,Transports,2.0
+IDF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.1.2,US6.3,Espaces verts ou non bâtis,1.9
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US2,Habitat pavillonnaire,1.9
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US4.1.2,Activités,1.9
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US4.1.2,Habitat pavillonnaire,1.9
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.2.1,US5,Habitat pavillonnaire,1.9
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US235,Chantiers,1.9
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS2.1.1.1,US1.1,Activités,1.9
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.1.2.1,US1.1,Espaces verts ou non bâtis,1.8
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.1.2.1,US1.3,Gestion des ressources,1.8
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US4.1.1,Équipements,1.8
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US1.1,Chantiers,1.8
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US4.1.2,Activités,1.8
+IDF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.1.3,US6.3,Espaces verts ou non bâtis,1.8
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.2.2,US4.1.4,Activités,1.7
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US2,Gestion des ressources,1.7
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US2,Transports,1.7
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS2.1.2,US235,Équipements,1.7
+IDF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS1.2.2,US235,Espaces verts ou non bâtis,1.6
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.3,US3,Transports,1.6
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US4.3,Habitat pavillonnaire,1.6
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.2.1,US3,Équipements,1.6
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US1.1,Transports,1.6
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US4.1.1,Gestion des ressources,1.6
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US4.3,Habitat pavillonnaire,1.6
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS1.2.2,US3,Activités,1.6
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS2.1.1.3,US1.2,Activités,1.6
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS2.1.2,US6.3,Habitat collectif,1.6
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US1.3,Espaces verts ou non bâtis,1.5
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US4.1.1,Habitat collectif,1.5
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US6.3,Chantiers,1.5
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US4.3,Gestion des ressources,1.5
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS1.2.2,US4.1.4,Activités,1.5
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS1.2.2,US4.1.4,Espaces verts ou non bâtis,1.5
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US4.1.1,Habitat collectif,1.5
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US4.1.2,Activités,1.5
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US235,Chantiers,1.5
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS1.2.1,US6.3,Activités,1.5
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.1.1.2,US3,Transports,1.4
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.1.2.1,US3,Activités,1.4
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.2,US1.2,Gestion des ressources,1.4
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US2,Activités,1.4
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.2.1,US1.3,Activités,1.4
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US3,Gestion des ressources,1.4
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.2.1,US1.3,Équipements,1.4
+IDF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.1.2,US2,Espaces verts ou non bâtis,1.3
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.2.2,US4.3,Espaces verts ou non bâtis,1.3
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.2.2,US5,Habitat pavillonnaire,1.3
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US235,Espaces verts ou non bâtis,1.3
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US6.3,Habitat collectif,1.3
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS1.2.2,US3,Gestion des ressources,1.3
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS1.2.2,US4.1.4,Transports,1.3
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US2,Chantiers,1.3
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.3,US1.3,Gestion des ressources,1.3
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US1.3,Activités,1.3
+IDF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.1.1,US6.2,Espaces verts ou non bâtis,1.2
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.1.1.2,US3,Équipements,1.2
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US5,Transports,1.2
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US6.3,Chantiers,1.2
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.2.1,US4.3,Gestion des ressources,1.2
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US6.1,Espaces verts ou non bâtis,1.2
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS2.1.2,US235,Habitat collectif,1.2
+IDF,D2_ocs_non_artif_reg_urbain,a_herbace_espaces_verts,CS2.1.3,US1.1,Espaces verts ou non bâtis,1.1
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.1.2.1,US1.3,Activités,1.1
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.2.2,US235,Espaces verts ou non bâtis,1.1
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS1.2.2,US3,Habitat collectif,1.1
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US1.1,Activités,1.1
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US2,Espaces verts ou non bâtis,1.1
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US4.1.2,Activités,1.1
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.2.1,US2,Gestion des ressources,1.1
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US4.1.2,Habitat pavillonnaire,1.1
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US4.3,Habitat collectif,1.1
+IDF,D2_ocs_non_artif_reg_urbain,d_jardins_bati_diffus,CS2.1.1.2,US3,Espaces verts ou non bâtis,1.1
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS2.1.2,US1.2,Habitat collectif,1.1
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.1,US4.3,Gestion des ressources,1.0
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.2,US3,Espaces verts ou non bâtis,1.0
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.1.3,US1.2,Activités,1.0
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US1.1,Habitat pavillonnaire,1.0
+IDF,D2_ocs_non_artif_reg_urbain,b_seuil_generalisation,CS2.1.2,US4.1.2,Habitat pavillonnaire,1.0
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS1.2.2,US4.1.1,Espaces verts ou non bâtis,1.0
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.1,US4.1.1,Chantiers,1.0
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.1.2,US4.1.3,Transports,1.0
+IDF,D2_ocs_non_artif_reg_urbain,c_chantiers_carrieres_infra,CS2.1.2,US3,Chantiers,1.0
+IDF,D2_ocs_non_artif_reg_urbain,e_residu,CS1.2.2,US3,Habitat collectif,1.0

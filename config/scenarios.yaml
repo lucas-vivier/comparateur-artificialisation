@@ -1,0 +1,21 @@
+# Variantes de la règle de référence (config/artificialisation.yaml) à simuler.
+# Chaque clé = nom du scénario ; les champs remplacent ceux de la référence.
+# Leviers tirés du tableau comparatif (projet NAC) : seuil de collecte [FNAU10, p. 10],
+# prise en compte de l'herbacé (catégorie 5) [FNAU10, p. 6 ; DDTM44, p. 36-39].
+
+reference: {}
+
+seuil_0:      {seuil_m2: 0}
+seuil_500:    {seuil_m2: 500}
+seuil_1000:   {seuil_m2: 1000}
+seuil_5000:   {seuil_m2: 5000}
+
+# Catégorie 5 (herbacé à usage urbain) comptée comme non artificialisée
+sans_herbace: {us_herbace_artif: []}
+
+# Herbacé des seules infrastructures de transport exclu (bords de route, talus)
+herbace_hors_transport:
+  us_herbace_artif: [US2, US235, US3, US4.2, US4.3, US5, US6.1, US6.2]
+
+# Le bâti peut lui aussi basculer au seuillage
+bati_non_protege: {bati_protege: false}

@@ -1,0 +1,173 @@
+16:23:16 debut 32 essai 1
+17:37:00 debut 32 essai 1
+19:09:58 debut 32 essai 1
+19:17:36 ok 32 {"dep": "32", "y1": "2022", "y2": "2025", "corrige": true, "communes": 458, "surface_ha": 630343.0, "stock_y1": 40139.0, "stock_y2": 40543.0, "ocs_brut": 201.73
+19:17:36 debut 12 essai 1
+19:32:20 ok 12 {"dep": "12", "y1": "2019", "y2": "2022", "corrige": false, "communes": 285, "surface_ha": 877016.0, "stock_y1": 45108.0, "stock_y2": 45661.0, "ocs_brut": 207.6
+19:32:20 debut 33 essai 1
+19:55:03 ok 33 {"dep": "33", "y1": "2021", "y2": "2024", "corrige": true, "communes": 534, "surface_ha": 1037026.0, "stock_y1": 124867.0, "stock_y2": 125995.0, "ocs_brut": 575
+19:55:04 debut 31 essai 1
+20:08:49 ok 31 {"dep": "31", "y1": "2019", "y2": "2022", "corrige": false, "communes": 586, "surface_ha": 636520.0, "stock_y1": 86122.0, "stock_y2": 87443.0, "ocs_brut": 477.4
+20:08:50 debut 69 essai 1
+20:20:00 ok 69 {"dep": "69", "y1": "2020", "y2": "2023", "corrige": false, "communes": 266, "surface_ha": 325305.0, "stock_y1": 67718.0, "stock_y2": 68134.0, "ocs_brut": 199.9
+20:20:00 debut 34 essai 1
+20:35:28 ok 34 {"dep": "34", "y1": "2021", "y2": "2024", "corrige": true, "communes": 341, "surface_ha": 623238.0, "stock_y1": 58253.0, "stock_y2": 58913.0, "ocs_brut": 297.48
+20:35:29 debut 85 essai 1
+20:48:34 ok 85 {"dep": "85", "y1": "2019", "y2": "2022", "corrige": false, "communes": 253, "surface_ha": 675698.0, "stock_y1": 77556.0, "stock_y2": 78931.0, "ocs_brut": 498.4
+20:48:34 debut 83 essai 1
+21:06:09 ok 83 {"dep": "83", "y1": "2020", "y2": "2023", "corrige": false, "communes": 153, "surface_ha": 603599.0, "stock_y1": 76349.0, "stock_y2": 77101.0, "ocs_brut": 327.8
+21:06:09 debut 73 essai 1
+21:10:21 ECHEC 73 essai 1 : retry communes 3 ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+21:10:21 debut 73 essai 2
+21:13:44 ECHEC 73 essai 2 : 21:13:18 73 2024 classé
+21:13:45 debut 05 essai 1
+21:16:56 ECHEC 05 essai 1 : 21:16:25 05 2024 classé
+21:16:57 debut 05 essai 2
+21:20:06 ECHEC 05 essai 2 : 21:19:38 05 2024 classé
+21:20:07 debut 01 essai 1
+21:32:38 ok 01 {"dep": "01", "y1": "2021", "y2": "2024", "corrige": true, "communes": 391, "surface_ha": 577424.0, "stock_y1": 58433.0, "stock_y2": 59112.0, "ocs_brut": 293.28
+21:32:38 debut 03 essai 1
+21:42:29 ok 03 {"dep": "03", "y1": "2019", "y2": "2022", "corrige": false, "communes": 317, "surface_ha": 736566.0, "stock_y1": 45346.0, "stock_y2": 45954.0, "ocs_brut": 242.3
+21:42:29 debut 04 essai 1
+21:55:34 ok 04 {"dep": "04", "y1": "2018", "y2": "2021", "corrige": false, "communes": 198, "surface_ha": 699419.0, "stock_y1": 19273.0, "stock_y2": 19513.0, "ocs_brut": 86.95
+21:55:34 debut 06 essai 1
+22:10:06 ok 06 {"dep": "06", "y1": "2020", "y2": "2023", "corrige": false, "communes": 163, "surface_ha": 429448.0, "stock_y1": 41167.0, "stock_y2": 41343.0, "ocs_brut": 103.1
+22:10:07 debut 07 essai 1
+22:21:50 ok 07 {"dep": "07", "y1": "2020", "y2": "2023", "corrige": false, "communes": 335, "surface_ha": 556138.0, "stock_y1": 36993.0, "stock_y2": 37504.0, "ocs_brut": 190.1
+22:21:51 debut 08 essai 1
+22:26:43 ok 08 {"dep": "08", "y1": "2019", "y2": "2022", "corrige": false, "communes": 447, "surface_ha": 525196.0, "stock_y1": 25479.0, "stock_y2": 25847.0, "ocs_brut": 135.1
+22:26:43 debut 09 essai 1
+22:51:34 ok 09 {"dep": "09", "y1": "2022", "y2": "2025", "corrige": true, "communes": 325, "surface_ha": 492116.0, "stock_y1": 18537.0, "stock_y2": 18656.0, "ocs_brut": 71.32,
+22:51:34 debut 10 essai 1
+22:57:57 ok 10 {"dep": "10", "y1": "2022", "y2": "2025", "corrige": true, "communes": 431, "surface_ha": 602230.0, "stock_y1": 32263.0, "stock_y2": 32994.0, "ocs_brut": 265.8,
+22:57:57 debut 11 essai 1
+23:09:34 ok 11 {"dep": "11", "y1": "2021", "y2": "2024", "corrige": true, "communes": 433, "surface_ha": 635169.0, "stock_y1": 34215.0, "stock_y2": 35278.0, "ocs_brut": 446.62
+23:09:34 debut 13 essai 1
+23:24:43 ok 13 {"dep": "13", "y1": "2020", "y2": "2023", "corrige": false, "communes": 119, "surface_ha": 508487.0, "stock_y1": 91033.0, "stock_y2": 92136.0, "ocs_brut": 458.8
+23:24:43 debut 14 essai 1
+23:35:55 ok 14 {"dep": "14", "y1": "2020", "y2": "2023", "corrige": false, "communes": 526, "surface_ha": 558887.0, "stock_y1": 64938.0, "stock_y2": 65875.0, "ocs_brut": 364.5
+23:35:55 debut 15 essai 1
+23:44:51 ok 15 {"dep": "15", "y1": "2020", "y2": "2022", "corrige": false, "communes": 250, "surface_ha": 576715.0, "stock_y1": 23504.0, "stock_y2": 23685.0, "ocs_brut": 112.6
+23:44:51 debut 16 essai 1
+23:54:25 ok 16 {"dep": "16", "y1": "2020", "y2": "2023", "corrige": false, "communes": 359, "surface_ha": 596366.0, "stock_y1": 48096.0, "stock_y2": 48592.0, "ocs_brut": 202.8
+23:54:25 debut 17 essai 1
+00:06:56 ok 17 {"dep": "17", "y1": "2021", "y2": "2024", "corrige": true, "communes": 462, "surface_ha": 704203.0, "stock_y1": 70311.0, "stock_y2": 71512.0, "ocs_brut": 566.48
+00:06:57 debut 18 essai 1
+00:14:14 ok 18 {"dep": "18", "y1": "2020", "y2": "2023", "corrige": false, "communes": 286, "surface_ha": 729325.0, "stock_y1": 41748.0, "stock_y2": 42292.0, "ocs_brut": 205.9
+00:14:15 debut 19 essai 1
+00:25:35 ok 19 {"dep": "19", "y1": "2020", "y2": "2023", "corrige": false, "communes": 277, "surface_ha": 589009.0, "stock_y1": 38150.0, "stock_y2": 38602.0, "ocs_brut": 189.2
+00:25:35 debut 2A essai 1
+00:34:38 ok 2A {"dep": "2A", "y1": "2021", "y2": "2024", "corrige": true, "communes": 124, "surface_ha": 403212.0, "stock_y1": 15579.0, "stock_y2": 15894.0, "ocs_brut": 146.01
+00:34:38 debut 2B essai 1
+00:43:59 ok 2B {"dep": "2B", "y1": "2021", "y2": "2024", "corrige": true, "communes": 236, "surface_ha": 471971.0, "stock_y1": 16318.0, "stock_y2": 16750.0, "ocs_brut": 174.7,
+00:44:00 debut 21 essai 1
+00:52:24 ok 21 {"dep": "21", "y1": "2020", "y2": "2023", "corrige": false, "communes": 698, "surface_ha": 878772.0, "stock_y1": 45238.0, "stock_y2": 45694.0, "ocs_brut": 178.1
+00:52:24 debut 23 essai 1
+01:01:40 ok 23 {"dep": "23", "y1": "2020", "y2": "2023", "corrige": false, "communes": 255, "surface_ha": 558918.0, "stock_y1": 26392.0, "stock_y2": 26661.0, "ocs_brut": 102.1
+01:01:41 debut 24 essai 1
+01:22:04 ok 24 {"dep": "24", "y1": "2021", "y2": "2024", "corrige": true, "communes": 503, "surface_ha": 921082.0, "stock_y1": 73452.0, "stock_y2": 74594.0, "ocs_brut": 472.4,
+01:22:04 debut 25 essai 1
+01:30:20 ok 25 {"dep": "25", "y1": "2020", "y2": "2023", "corrige": false, "communes": 563, "surface_ha": 524708.0, "stock_y1": 39834.0, "stock_y2": 40185.0, "ocs_brut": 160.7
+01:30:20 debut 26 essai 1
+01:44:09 ok 26 {"dep": "26", "y1": "2020", "y2": "2023", "corrige": false, "communes": 362, "surface_ha": 655349.0, "stock_y1": 47368.0, "stock_y2": 48130.0, "ocs_brut": 281.8
+01:44:10 debut 27 essai 1
+01:53:10 ok 27 {"dep": "27", "y1": "2019", "y2": "2022", "corrige": false, "communes": 585, "surface_ha": 603560.0, "stock_y1": 62169.0, "stock_y2": 62898.0, "ocs_brut": 274.1
+01:53:10 debut 28 essai 1
+01:59:00 ok 28 {"dep": "28", "y1": "2020", "y2": "2023", "corrige": false, "communes": 363, "surface_ha": 592708.0, "stock_y1": 41329.0, "stock_y2": 41807.0, "ocs_brut": 212.5
+01:59:00 debut 30 essai 1
+02:12:50 ok 30 {"dep": "30", "y1": "2021", "y2": "2024", "corrige": true, "communes": 350, "surface_ha": 587495.0, "stock_y1": 57545.0, "stock_y2": 58262.0, "ocs_brut": 388.26
+02:12:50 debut 35 essai 1
+02:27:53 ok 35 {"dep": "35", "y1": "2020", "y2": "2023", "corrige": false, "communes": 332, "surface_ha": 683128.0, "stock_y1": 86773.0, "stock_y2": 87591.0, "ocs_brut": 399.1
+02:27:53 debut 36 essai 1
+02:35:31 ok 36 {"dep": "36", "y1": "2020", "y2": "2023", "corrige": false, "communes": 241, "surface_ha": 688663.0, "stock_y1": 35096.0, "stock_y2": 35437.0, "ocs_brut": 146.2
+02:35:32 debut 37 essai 1
+02:45:48 ok 37 {"dep": "37", "y1": "2021", "y2": "2025", "corrige": true, "communes": 272, "surface_ha": 614716.0, "stock_y1": 55392.0, "stock_y2": 55864.0, "ocs_brut": 204.91
+02:45:48 debut 38 essai 1
+03:01:45 ok 38 {"dep": "38", "y1": "2021", "y2": "2024", "corrige": true, "communes": 512, "surface_ha": 786885.0, "stock_y1": 81909.0, "stock_y2": 82694.0, "ocs_brut": 375.02
+03:01:45 debut 39 essai 1
+03:08:42 ok 39 {"dep": "39", "y1": "2020", "y2": "2023", "corrige": false, "communes": 492, "surface_ha": 504013.0, "stock_y1": 29953.0, "stock_y2": 30219.0, "ocs_brut": 114.0
+03:08:42 debut 40 essai 1
+03:18:47 ok 40 {"dep": "40", "y1": "2021", "y2": "2024", "corrige": true, "communes": 327, "surface_ha": 935533.0, "stock_y1": 68253.0, "stock_y2": 69237.0, "ocs_brut": 579.49
+03:18:48 debut 41 essai 1
+03:26:47 ok 41 {"dep": "41", "y1": "2018", "y2": "2023", "corrige": false, "communes": 267, "surface_ha": 641215.0, "stock_y1": 43440.0, "stock_y2": 44132.0, "ocs_brut": 200.0
+03:26:47 debut 42 essai 1
+03:36:55 ok 42 {"dep": "42", "y1": "2019", "y2": "2022", "corrige": false, "communes": 320, "surface_ha": 479635.0, "stock_y1": 52652.0, "stock_y2": 53127.0, "ocs_brut": 177.3
+03:36:55 debut 43 essai 1
+17:56:19 debut 73 essai 1
+18:15:15 ok 73 {"dep": "73", "y1": "2019", "y2": "2022", "corrige": false, "communes": 273, "surface_ha": 626033.0, "stock_y1": 33722.0, "stock_y2": 33983.0, "ocs_brut": 115.8
+18:15:16 debut 05 essai 1
+18:48:26 debut 05 essai 1
+19:04:14 ok 05 {"dep": "05", "y1": "2018", "y2": "2022", "corrige": false, "communes": 162, "surface_ha": 568503.0, "stock_y1": 15579.0, "stock_y2": 15883.0, "ocs_brut": 83.72
+19:04:15 debut 43 essai 1
+19:11:45 ok 43 {"dep": "43", "y1": "2019", "y2": "2022", "corrige": false, "communes": 257, "surface_ha": 499777.0, "stock_y1": 29105.0, "stock_y2": 29507.0, "ocs_brut": 151.2
+19:11:45 debut 44 essai 1
+19:26:47 ok 44 {"dep": "44", "y1": "2020", "y2": "2022", "corrige": false, "communes": 207, "surface_ha": 699366.0, "stock_y1": 95104.0, "stock_y2": 95981.0, "ocs_brut": 524.6
+19:26:48 debut 45 essai 1
+19:35:43 ok 45 {"dep": "45", "y1": "2020", "y2": "2023", "corrige": false, "communes": 325, "surface_ha": 680379.0, "stock_y1": 60344.0, "stock_y2": 61139.0, "ocs_brut": 306.5
+19:35:43 debut 46 essai 1
+19:49:12 ok 46 {"dep": "46", "y1": "2022", "y2": "2025", "corrige": true, "communes": 312, "surface_ha": 522186.0, "stock_y1": 34962.0, "stock_y2": 35329.0, "ocs_brut": 166.0,
+19:49:12 debut 47 essai 1
+19:59:34 ok 47 {"dep": "47", "y1": "2021", "y2": "2024", "corrige": true, "communes": 319, "surface_ha": 538281.0, "stock_y1": 50585.0, "stock_y2": 51199.0, "ocs_brut": 288.77
+19:59:35 debut 48 essai 1
+20:07:45 ok 48 {"dep": "48", "y1": "2021", "y2": "2025", "corrige": true, "communes": 152, "surface_ha": 517178.0, "stock_y1": 13420.0, "stock_y2": 13718.0, "ocs_brut": 94.07,
+20:07:45 debut 49 essai 1
+20:19:40 ok 49 {"dep": "49", "y1": "2020", "y2": "2022", "corrige": false, "communes": 176, "surface_ha": 716082.0, "stock_y1": 74946.0, "stock_y2": 75510.0, "ocs_brut": 389.1
+20:19:41 debut 50 essai 1
+20:32:17 ok 50 {"dep": "50", "y1": "2019", "y2": "2022", "corrige": false, "communes": 445, "surface_ha": 601528.0, "stock_y1": 62534.0, "stock_y2": 63202.0, "ocs_brut": 260.7
+20:32:17 debut 51 essai 1
+20:38:51 ok 51 {"dep": "51", "y1": "2019", "y2": "2022", "corrige": false, "communes": 610, "surface_ha": 819573.0, "stock_y1": 53141.0, "stock_y2": 54718.0, "ocs_brut": 567.9
+20:38:51 debut 52 essai 1
+20:44:11 ok 52 {"dep": "52", "y1": "2019", "y2": "2022", "corrige": false, "communes": 426, "surface_ha": 624932.0, "stock_y1": 23406.0, "stock_y2": 23596.0, "ocs_brut": 72.85
+20:44:12 debut 53 essai 1
+20:51:27 ok 53 {"dep": "53", "y1": "2019", "y2": "2022", "corrige": false, "communes": 240, "surface_ha": 520800.0, "stock_y1": 38811.0, "stock_y2": 39345.0, "ocs_brut": 205.5
+20:51:28 debut 54 essai 1
+20:58:46 ok 54 {"dep": "54", "y1": "2022", "y2": "2025", "corrige": true, "communes": 591, "surface_ha": 528417.0, "stock_y1": 42766.0, "stock_y2": 43336.0, "ocs_brut": 258.84
+20:58:46 debut 55 essai 1
+21:04:01 ok 55 {"dep": "55", "y1": "2022", "y2": "2025", "corrige": true, "communes": 499, "surface_ha": 623439.0, "stock_y1": 23250.0, "stock_y2": 23436.0, "ocs_brut": 102.09
+21:04:02 debut 56 essai 1
+21:22:36 ok 56 {"dep": "56", "y1": "2022", "y2": "2024", "corrige": true, "communes": 249, "surface_ha": 687108.0, "stock_y1": 80298.0, "stock_y2": 81630.0, "ocs_brut": 859.68
+21:22:36 debut 57 essai 1
+21:32:59 ok 57 {"dep": "57", "y1": "2022", "y2": "2025", "corrige": true, "communes": 725, "surface_ha": 625189.0, "stock_y1": 66945.0, "stock_y2": 67699.0, "ocs_brut": 346.73
+21:32:59 debut 58 essai 1
+21:39:58 ok 58 {"dep": "58", "y1": "2020", "y2": "2023", "corrige": false, "communes": 309, "surface_ha": 686323.0, "stock_y1": 31339.0, "stock_y2": 31623.0, "ocs_brut": 112.6
+21:39:59 debut 61 essai 1
+21:48:28 ok 61 {"dep": "61", "y1": "2020", "y2": "2023", "corrige": false, "communes": 381, "surface_ha": 614283.0, "stock_y1": 44185.0, "stock_y2": 44295.0, "ocs_brut": 130.9
+21:48:28 debut 63 essai 1
+22:02:03 ok 63 {"dep": "63", "y1": "2019", "y2": "2022", "corrige": false, "communes": 463, "surface_ha": 800196.0, "stock_y1": 57571.0, "stock_y2": 58135.0, "ocs_brut": 219.7
+22:02:03 debut 64 essai 1
+22:20:47 ok 64 {"dep": "64", "y1": "2021", "y2": "2024", "corrige": true, "communes": 545, "surface_ha": 769141.0, "stock_y1": 60711.0, "stock_y2": 61577.0, "ocs_brut": 369.41
+22:20:47 debut 65 essai 1
+22:31:16 ok 65 {"dep": "65", "y1": "2019", "y2": "2022", "corrige": false, "communes": 469, "surface_ha": 452854.0, "stock_y1": 25308.0, "stock_y2": 25665.0, "ocs_brut": 130.0
+22:31:17 debut 66 essai 1
+22:42:30 ok 66 {"dep": "66", "y1": "2021", "y2": "2024", "corrige": true, "communes": 226, "surface_ha": 414813.0, "stock_y1": 30192.0, "stock_y2": 31796.0, "ocs_brut": 610.31
+22:42:31 debut 67 essai 1
+22:52:38 ok 67 {"dep": "67", "y1": "2021", "y2": "2024", "corrige": true, "communes": 514, "surface_ha": 479615.0, "stock_y1": 57979.0, "stock_y2": 58471.0, "ocs_brut": 290.33
+22:52:39 debut 68 essai 1
+23:00:09 ok 68 {"dep": "68", "y1": "2021", "y2": "2024", "corrige": true, "communes": 366, "surface_ha": 352665.0, "stock_y1": 43454.0, "stock_y2": 44084.0, "ocs_brut": 254.62
+23:00:09 debut 70 essai 1
+23:06:15 ok 70 {"dep": "70", "y1": "2020", "y2": "2023", "corrige": false, "communes": 536, "surface_ha": 538247.0, "stock_y1": 30000.0, "stock_y2": 30238.0, "ocs_brut": 108.4
+23:06:16 debut 71 essai 1
+23:18:43 ok 71 {"dep": "71", "y1": "2020", "y2": "2023", "corrige": false, "communes": 563, "surface_ha": 859787.0, "stock_y1": 64633.0, "stock_y2": 65374.0, "ocs_brut": 279.4
+23:18:43 debut 72 essai 1
+23:28:25 ok 72 {"dep": "72", "y1": "2019", "y2": "2022", "corrige": false, "communes": 352, "surface_ha": 623805.0, "stock_y1": 58881.0, "stock_y2": 59301.0, "ocs_brut": 168.4
+23:28:25 debut 74 essai 1
+23:41:55 ok 74 {"dep": "74", "y1": "2020", "y2": "2023", "corrige": false, "communes": 279, "surface_ha": 459674.0, "stock_y1": 50404.0, "stock_y2": 50781.0, "ocs_brut": 237.1
+23:41:55 debut 76 essai 1
+23:53:13 ok 76 {"dep": "76", "y1": "2019", "y2": "2022", "corrige": false, "communes": 707, "surface_ha": 631690.0, "stock_y1": 81723.0, "stock_y2": 82589.0, "ocs_brut": 344.4
+23:53:14 debut 79 essai 1
+00:01:45 ok 79 {"dep": "79", "y1": "2020", "y2": "2023", "corrige": false, "communes": 252, "surface_ha": 602912.0, "stock_y1": 48509.0, "stock_y2": 48984.0, "ocs_brut": 212.9
+00:01:45 debut 81 essai 1
+00:13:19 ok 81 {"dep": "81", "y1": "2022", "y2": "2025", "corrige": true, "communes": 314, "surface_ha": 578474.0, "stock_y1": 45935.0, "stock_y2": 46705.0, "ocs_brut": 305.39
+00:13:19 debut 82 essai 1
+00:21:41 ok 82 {"dep": "82", "y1": "2022", "y2": "2025", "corrige": true, "communes": 195, "surface_ha": 373081.0, "stock_y1": 34852.0, "stock_y2": 35312.0, "ocs_brut": 205.95
+00:21:41 debut 84 essai 1
+00:32:13 ok 84 {"dep": "84", "y1": "2018", "y2": "2021", "corrige": false, "communes": 151, "surface_ha": 357779.0, "stock_y1": 45135.0, "stock_y2": 45499.0, "ocs_brut": 184.5
+00:32:13 debut 86 essai 1
+00:41:03 ok 86 {"dep": "86", "y1": "2020", "y2": "2023", "corrige": false, "communes": 265, "surface_ha": 702563.0, "stock_y1": 50713.0, "stock_y2": 51277.0, "ocs_brut": 210.7
+00:41:03 debut 87 essai 1
+00:51:52 ok 87 {"dep": "87", "y1": "2020", "y2": "2023", "corrige": false, "communes": 195, "surface_ha": 554782.0, "stock_y1": 43251.0, "stock_y2": 43842.0, "ocs_brut": 248.5
+00:51:52 debut 88 essai 1
+01:00:48 ok 88 {"dep": "88", "y1": "2023", "y2": "2025", "corrige": true, "communes": 506, "surface_ha": 589171.0, "stock_y1": 41021.0, "stock_y2": 41336.0, "ocs_brut": 221.99
+01:00:48 debut 89 essai 1
+01:08:30 ok 89 {"dep": "89", "y1": "2020", "y2": "2023", "corrige": false, "communes": 423, "surface_ha": 745186.0, "stock_y1": 40131.0, "stock_y2": 40468.0, "ocs_brut": 142.9
+01:08:30 FIN

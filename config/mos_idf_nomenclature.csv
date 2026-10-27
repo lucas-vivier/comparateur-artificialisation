@@ -1,0 +1,80 @@
+code;libelle;groupe12;libelle12;enaf
+1;Bois ou forêts;1;Bois ou forêts;1
+2;Coupes ou clairières en forêts;1;Bois ou forêts;1
+3;Peupleraies;1;Bois ou forêts;1
+4;Espaces ouverts à végétation arbustive ou herbacée;2;Milieux semi-naturels;1
+5;Berges;2;Milieux semi-naturels;1
+6;Terres labourées;3;Espaces agricoles;1
+7;Prairies;3;Espaces agricoles;1
+8;Vergers, pépinières;3;Espaces agricoles;1
+9;Maraîchage, horticulture;3;Espaces agricoles;1
+10;Cultures intensives sous serres;3;Espaces agricoles;1
+11;Eau fermée (étangs, lacs...);4;Eau;1
+12;Cours d'eau;4;Eau;1
+13;Parcs ou jardins publics;5;Espaces verts ou non bâtis;0
+14;Autres espaces verts;5;Espaces verts ou non bâtis;0
+15;Jardins familiaux;5;Espaces verts ou non bâtis;0
+16;Jardins de l'habitat;5;Espaces verts ou non bâtis;0
+17;Terrains de sport en plein air;5;Espaces verts ou non bâtis;0
+18;Tennis découverts;5;Espaces verts ou non bâtis;0
+19;Baignades;5;Espaces verts ou non bâtis;0
+20;Golfs;5;Espaces verts ou non bâtis;0
+21;Hippodromes;5;Espaces verts ou non bâtis;0
+22;Camping, caravaning;5;Espaces verts ou non bâtis;0
+23;Parcs liés aux activités de loisirs;5;Espaces verts ou non bâtis;0
+24;Esplanades et places;5;Espaces verts ou non bâtis;0
+25;Cimetières;5;Espaces verts ou non bâtis;0
+26;Surfaces engazonnées avec ou sans arbustes;5;Espaces verts ou non bâtis;0
+27;Terrains vacants;5;Espaces verts ou non bâtis;0
+28;Habitat individuel;6;Habitat pavillonnaire;0
+29;Ensembles d'habitat individuel identique;6;Habitat pavillonnaire;0
+30;Habitat rural;6;Habitat pavillonnaire;0
+31;Habitat continu bas;7;Habitat collectif;0
+32;Habitat collectif continu haut;7;Habitat collectif;0
+33;Habitat collectif discontinu;7;Habitat collectif;0
+34;Prisons;7;Habitat collectif;0
+35;Habitat autre;7;Habitat collectif;0
+36;Activités en tissu urbain mixte;8;Activités;0
+37;Grandes emprises industrielles;8;Activités;0
+38;Zones d'activités économiques;8;Activités;0
+39;Entreposage à l'air libre;8;Activités;0
+40;Entrepôts logistiques;8;Activités;0
+41;Stockage de données;8;Activités;0
+42;Grandes surfaces commerciales;8;Activités;0
+43;Autres commerces;8;Activités;0
+44;Stations-service;8;Activités;0
+45;Bureaux;8;Activités;0
+46;Production d'eau;9;Gestion des ressources;0
+47;Assainissement;9;Gestion des ressources;0
+48;Électricité;9;Gestion des ressources;0
+49;Gaz;9;Gestion des ressources;0
+50;Pétrole;9;Gestion des ressources;0
+51;Chaleur;9;Gestion des ressources;0
+52;Extraction de matériaux;9;Gestion des ressources;0
+53;Tri et valorisation déchets;9;Gestion des ressources;0
+54;Stockage de déchets;9;Gestion des ressources;0
+55;Installations sportives couvertes;10;Équipements;0
+56;Centres équestres;10;Équipements;0
+57;Piscines couvertes;10;Équipements;0
+58;Piscines en plein air;10;Équipements;0
+59;Circuits sportifs;10;Équipements;0
+60;Enseignement de premier degré;10;Équipements;0
+61;Enseignement secondaire;10;Équipements;0
+62;Enseignement supérieur;10;Équipements;0
+63;Centre de formation professionnelle;10;Équipements;0
+64;Hôpitaux, cliniques;10;Équipements;0
+65;Autres équipements de santé;10;Équipements;0
+66;Grands centres de congrès et d'exposition;10;Équipements;0
+67;Équipements culturels et de loisirs;10;Équipements;0
+68;Sièges d'administrations territoriales;10;Équipements;0
+69;Équipements de missions de sécurité civile;10;Équipements;0
+70;Équipements d'accès au public limité;10;Équipements;0
+71;Lieux de culte;10;Équipements;0
+72;Autres équipements de proximité;10;Équipements;0
+73;Emprises de transport ferré;11;Transports;0
+74;Voies routières;11;Transports;0
+75;Parkings de surface;11;Transports;0
+76;Parkings en étages;11;Transports;0
+77;Gares routières, dépôts de bus;11;Transports;0
+78;Installations aéroportuaires;11;Transports;0
+79;Chantiers;12;Chantiers;0

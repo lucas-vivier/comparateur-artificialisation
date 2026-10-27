@@ -1,0 +1,43 @@
+CODE;LIBELLE;R;V;B
+CS1.1.1.1;Zones bâties;255;55;122
+CS1.1.1.2;Zones non bâties;255;145;145
+CS1.1.2.1;Zones à matériaux minéraux;255;255;153
+CS1.1.2.2;Zones à autres matériaux composites;166;77;0
+CS1.2.1;Sols nus;204;204;204
+CS1.2.2;Surfaces d'eau;0;204;242
+CS1.2.3;Névés et glaciers;166;230;204
+CS2.1.1.1;Peuplements de feuillus;128;255;0
+CS2.1.1.2;Peuplements de conifères;0;166;0
+CS2.1.1.3;Peuplements mixtes;128;190;0
+CS2.1.2;Formations arbustives et sous-arbrisseaux;166;255;128
+CS2.1.3;Autres formations ligneuses;230;128;0
+CS2.2.1;Formations herbacées;204;242;77
+CS2.2.2;Autres formations non ligneuses;204;255;204
+US1.1;Agriculture;255;255;168
+US1.2;Sylviculture;0;128;0
+US1.3;Activités d'extraction;166;0;204
+US1.4;Pêche et Aquaculture;0;0;153
+US1.5;Autres productions primaires;153;102;51
+US2;Production secondaire;230;0;77
+US235;Production secondaire, tertiaire et usage résidentiel;230;0;77
+US3;Production tertiaire;255;140;0
+US4.1.1;Réseaux routiers;204;0;0
+US4.1.2;Réseaux ferrés;90;90;90
+US4.1.3;Réseaux aériens;230;204;230
+US4.1.4;Réseaux de transport fluvial et maritime;0;102;255
+US4.1.5;Autres réseaux de transport;102;0;51
+US4.2;Services logistiques et de stockage ;255;0;0
+US4.3;Réseaux d'utilité publique;255;75;0
+US5;Usage résidentiel;190;9;97
+US6.1;Zones en transition;255;77;255
+US6.2;Zones abandonnées;64;64;64
+US6.3;Sans usage;240;240;40
+US6.6;Usage inconnu;255;204;0
+OR1.1;Compléments réseaux BDTOPO®;204;153;0
+OR1.2;Réseaux BDTOPO®;204;0;0
+OR2.1.1;Comblement fermé inférieur à 500 m²;255;63;63
+OR2.1.2;Comblement fermé inférieur à 10 m de large;255;125;125
+OR2.2.1;Comblement fermé supérieur à 500m²;204;51;0
+OR2.2.2;Comblement ouvert en impasse;141;180;226
+OR2.2.3;Comblement ouvert sur les 2 côtés;54;96;146
+OR2.2.4;Autres comblements;118;147;60

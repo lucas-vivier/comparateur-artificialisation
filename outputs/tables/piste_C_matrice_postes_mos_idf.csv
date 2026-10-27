@@ -1,0 +1,80 @@
+sens,r_poste,r_classe,ha
+D1_ocs_artif_reg_enaf,7,Espaces agricoles,2924.7
+D1_ocs_artif_reg_enaf,4,Milieux semi-naturels,2489.0
+D1_ocs_artif_reg_enaf,1,Bois ou forêts,2199.3
+D1_ocs_artif_reg_enaf,6,Espaces agricoles,1589.6
+D1_ocs_artif_reg_enaf,11,Eau,515.4
+D1_ocs_artif_reg_enaf,10,Espaces agricoles,360.3
+D1_ocs_artif_reg_enaf,2,Bois ou forêts,352.4
+D1_ocs_artif_reg_enaf,8,Espaces agricoles,230.4
+D1_ocs_artif_reg_enaf,9,Espaces agricoles,176.6
+D1_ocs_artif_reg_enaf,12,Eau,105.1
+D1_ocs_artif_reg_enaf,5,Milieux semi-naturels,65.0
+D1_ocs_artif_reg_enaf,3,Bois ou forêts,54.5
+D2_ocs_non_artif_reg_urbain,26,Espaces verts ou non bâtis,13324.6
+D2_ocs_non_artif_reg_urbain,16,Espaces verts ou non bâtis,9362.1
+D2_ocs_non_artif_reg_urbain,13,Espaces verts ou non bâtis,5604.1
+D2_ocs_non_artif_reg_urbain,28,Habitat pavillonnaire,4148.5
+D2_ocs_non_artif_reg_urbain,14,Espaces verts ou non bâtis,2698.7
+D2_ocs_non_artif_reg_urbain,73,Transports,1984.0
+D2_ocs_non_artif_reg_urbain,52,Gestion des ressources,1799.3
+D2_ocs_non_artif_reg_urbain,74,Transports,1544.5
+D2_ocs_non_artif_reg_urbain,30,Habitat pavillonnaire,1458.0
+D2_ocs_non_artif_reg_urbain,27,Espaces verts ou non bâtis,1368.0
+D2_ocs_non_artif_reg_urbain,39,Activités,865.8
+D2_ocs_non_artif_reg_urbain,20,Espaces verts ou non bâtis,766.2
+D2_ocs_non_artif_reg_urbain,15,Espaces verts ou non bâtis,649.7
+D2_ocs_non_artif_reg_urbain,29,Habitat pavillonnaire,631.6
+D2_ocs_non_artif_reg_urbain,33,Habitat collectif,532.8
+D2_ocs_non_artif_reg_urbain,46,Gestion des ressources,513.7
+D2_ocs_non_artif_reg_urbain,70,Équipements,468.0
+D2_ocs_non_artif_reg_urbain,36,Activités,462.6
+D2_ocs_non_artif_reg_urbain,22,Espaces verts ou non bâtis,414.1
+D2_ocs_non_artif_reg_urbain,79,Chantiers,407.7
+D2_ocs_non_artif_reg_urbain,59,Équipements,373.1
+D2_ocs_non_artif_reg_urbain,75,Transports,348.7
+D2_ocs_non_artif_reg_urbain,56,Équipements,302.7
+D2_ocs_non_artif_reg_urbain,17,Espaces verts ou non bâtis,262.9
+D2_ocs_non_artif_reg_urbain,23,Espaces verts ou non bâtis,236.8
+D2_ocs_non_artif_reg_urbain,38,Activités,196.0
+D2_ocs_non_artif_reg_urbain,31,Habitat collectif,188.4
+D2_ocs_non_artif_reg_urbain,47,Gestion des ressources,183.6
+D2_ocs_non_artif_reg_urbain,35,Habitat collectif,136.4
+D2_ocs_non_artif_reg_urbain,54,Gestion des ressources,131.0
+D2_ocs_non_artif_reg_urbain,18,Espaces verts ou non bâtis,124.7
+D2_ocs_non_artif_reg_urbain,25,Espaces verts ou non bâtis,110.5
+D2_ocs_non_artif_reg_urbain,60,Équipements,92.5
+D2_ocs_non_artif_reg_urbain,78,Transports,90.4
+D2_ocs_non_artif_reg_urbain,61,Équipements,84.6
+D2_ocs_non_artif_reg_urbain,72,Équipements,78.4
+D2_ocs_non_artif_reg_urbain,21,Espaces verts ou non bâtis,68.0
+D2_ocs_non_artif_reg_urbain,64,Équipements,57.7
+D2_ocs_non_artif_reg_urbain,50,Gestion des ressources,53.6
+D2_ocs_non_artif_reg_urbain,55,Équipements,48.2
+D2_ocs_non_artif_reg_urbain,49,Gestion des ressources,45.4
+D2_ocs_non_artif_reg_urbain,63,Équipements,40.2
+D2_ocs_non_artif_reg_urbain,48,Gestion des ressources,35.1
+D2_ocs_non_artif_reg_urbain,40,Activités,34.8
+D2_ocs_non_artif_reg_urbain,24,Espaces verts ou non bâtis,34.7
+D2_ocs_non_artif_reg_urbain,45,Activités,34.2
+D2_ocs_non_artif_reg_urbain,65,Équipements,30.9
+D2_ocs_non_artif_reg_urbain,37,Activités,28.5
+D2_ocs_non_artif_reg_urbain,62,Équipements,23.8
+D2_ocs_non_artif_reg_urbain,67,Équipements,18.2
+D2_ocs_non_artif_reg_urbain,32,Habitat collectif,16.8
+D2_ocs_non_artif_reg_urbain,43,Activités,15.9
+D2_ocs_non_artif_reg_urbain,71,Équipements,13.6
+D2_ocs_non_artif_reg_urbain,42,Activités,10.2
+D2_ocs_non_artif_reg_urbain,68,Équipements,8.3
+D2_ocs_non_artif_reg_urbain,69,Équipements,7.0
+D2_ocs_non_artif_reg_urbain,44,Activités,6.6
+D2_ocs_non_artif_reg_urbain,19,Espaces verts ou non bâtis,5.7
+D2_ocs_non_artif_reg_urbain,57,Équipements,5.7
+D2_ocs_non_artif_reg_urbain,58,Équipements,5.2
+D2_ocs_non_artif_reg_urbain,51,Gestion des ressources,4.3
+D2_ocs_non_artif_reg_urbain,41,Activités,3.3
+D2_ocs_non_artif_reg_urbain,53,Gestion des ressources,3.0
+D2_ocs_non_artif_reg_urbain,77,Transports,2.0
+D2_ocs_non_artif_reg_urbain,34,Habitat collectif,1.9
+D2_ocs_non_artif_reg_urbain,76,Transports,1.0
+D2_ocs_non_artif_reg_urbain,66,Équipements,0.5

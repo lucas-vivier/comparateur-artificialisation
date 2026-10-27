@@ -1,0 +1,22 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+data/raw/*
+!data/raw/mos/
+data/raw/mos/*
+!data/raw/mos/.gitkeep
+data/interim/
+data/processed/
+outputs/figures/*
+!outputs/figures/.gitkeep
+.pytest_cache/
+.DS_Store
+
+# Fichiers de travail non publiés
+logs/
+outputs/france/*.zip
+outputs/france/deckpatch/
+outputs/pistes/E_brouillons_producteurs.md
+_transfert/
+_sauvegarde*/
